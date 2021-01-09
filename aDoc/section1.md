@@ -823,32 +823,217 @@ Determine the resulting output.
 (D)II and III only 
 (E) I, II, and III 
 ```
+Questions 33-34 refer to the Percussion and Xylophone class below. 
+```java
+public class Percussion {
+	private String name;
+	private double weight;
 
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
+	Percussion() {
+
+	}
+
+	Percussion(String n, double w) {
+		name = n;
+		weight = w;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+}
+
+public class Drums extends Percussion {
+
+}
+
+public class Xylophone extends Percussion{
+	private int numberOfKeys; 
+	Xylophone (String name, double weight, int numberOfKeys) {
+		//<missing code>
+	}
+	
+	public int getNumberOfKeys() {
+		return numberOfKeys;
+	}
+}
+```
+33. Which of the following is the most appropriate replacement for <niissing code> in the Xylophone constructor?
+```java
+(A) this.numberOfKeys = numberOfKeys;
+	super (name, weight);
+(B) super (name, weight);
+	this.numberOfKeys = numberOfKeys;
+(C) super (name, weight);
+	numberOfKeys = this.numberOfKeys;
+(D) this.numberOfKeys = numberOfKeys;
+(E) numberOfKeys = this.numberOfKeys;
+```
+34. Assuming the above classes compile correctly, which of the following will not compile within a client program?
+```java
+(A) Xylophone [] xylophones = new Xylophone [5]; 
+(B) Percussion [] xylophones = new Xylophone [5]; 
+(C) Xylophone x1 = new Xylophone ("xylophone", 65, 32) ; 
+	System.out.println(x1.getNumKeys()); 
+(D) Xylophone x2 = new Xylophone ("xylophone", 65, 32); 
+	System.out.println(x2.numberOfKeys); 
+(E) Drums[] drums;
+```
+35. A client program wishes to compare the two xylophone objects as follows: 
+```java
+Xylophone x2 = new Xylophone ("xylophone", 80, 32) ; 
+Xylophone X3 = new Xylophone ("xylophone", 65,	32);
+```
+The two objects should be considered “equally heavy’' if and only if they have the same weight. Which of the following code excerpts accomplishes that task? 
+```java
+(A) if (x2.weight==x3.weight)
+		System.out.println ("equally heavy") ; 
+	else
+		System.out.println ("not equally heavy");
+(B) if (x2.weight()==x3.weight())
+		System.out.println ("equally heavy") ; 
+	else
+		System.out.println ("not equally heavy");
+(C) if (x2.getWeight()==x3.getWeight())
+		System.out.println ("equally heavy") ; 
+	else
+		System.out.println ("not equally heavy");
+(D) if (x2.weight.equals(x3.weight)
+		System.out.println ("equally heavy") ; 
+	else
+		System.out.println ("not equally heavy");
+```
+(E) The weight of each object cannot be compared.
+
+Questions 36-37 refer to the following classes. 
 
 ```java
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
+public class Dog {
+	private int height; 
+	private String size; 
+	private String color; 
+	Dog (int iheight, int iweight, String icolor) {
+		height = iheight; 
+		color = icolor;
+		if (iweight >= 65)
+			size = "large" ; 
+		else 
+			size = "medium" ;
+	}
+	public int getHeight() { return height; } 
+	public String getSize() { return size;}
+	public String getColor() {return color; } 
+	public String toString () {return "        color is: "+ color;}
+}
+
+public class SportingDog extends Dog {
+	private String purpose; 
+	SportingDog (int h, int w, String c) {
+		super (h, w, c);
+		purpose = "hunting";
+	}
+	public String getPurpose() {
+		return purpose;
+	}
+	
+}
+
+public class Retriever extends SportingDog {
+	private String type;
+	Retriever (String itype, String icolor, int iweight) {
+		super(24, iweight, icolor); 
+		type = itype; 
+	}
+	public String toString () {return "type: " + type + super.toString(); }
+}
 ```
+36. Which of the following declarations will not compile?
 ```java
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
+(A) Dog d1 = new SportingDog (30 , 74 , "Black"); 
+(B) Dog d2 = new Retriever("Labrador", "Yellow", 75) ; 
+(C) SportingDog d3 = new Retriever ("Golden", "Red", 70);
+(D) SportingDog d4 = new Dog (25, 80, "Bed");
+(E) Retriever d5 = new Retriever ("Golden", "Blonde", 60 ) ;
 ```
+37. VVhat is the output after the execution of the following code in the client program: 
 ```java
-(A) 
-(B) 
-(C) 
-(D) 
-(E) 
+	Dog mason = new Retriever ("Labrador", "chocolate", 85);
+	System.out.println (mason.toString());
 ```
+```
+(A) type: Labrador 
+(B) type: Labrador	color is: chocolate   purpose: hunting
+(C) color is: chocolate  type: Labrador 
+(D) type: Labrador purpose: hunting color is: chocolate 
+(E) type: Labrador 	color is: chocolate 
+```
+38. The following pow method was written to return b raised to the xth power where x > 0, but it does not work properly. Choose the changes to the method below to work properly.
+```java
+1	public double pow (double b, int x) 
+2	{
+3		if (x==0) 
+4			return 0; 
+5		else
+6			return b + pow (b, x-1); 
+7	}
+```
+``` No answer is correct
+(A) Change lines 3 and 4 to: 
+3 	if (x=-l) 
+4		return 1; 
+(B) Change lines 3 and 4 to: 
+3 	if (x=-l) 
+4		return b; 
+(C) Change line 6 to: 
+6 		return b * mystery(b, x-1);
+(D) Both (A) and (C) 
+(E) Both (B) and (C) 
+```
+39. What is output given the following code excerpt? 
+```java
+	public static int f (int n) {
+		if (n==0)
+			return 0;
+		else 
+			return f(n/10)+ n % 10; 
+			
+	}
+	System.out.println(f(8765));
+```
+```
+(A) 5678 
+(B) 8765 
+(C) 58 
+(D) 26 
+(E) A run-time error 
+```
+40. Choose the best solution to complete the missing code such that the code will implement a binary search to find the variable number in arr.
+```java
+	int number = <some number in arr>;
+	System.out.println (search (arr, 0, arr.length-1, number)) ;
+
+	public int search(int [] a,int first, int last, int sought){
+		int mid = (first +  last)/2 ;
+		if (<missing code>) {
+			last = mid - 1;
+			return search(a, first,last, sought) ;
+		}
+		else if(<missingcode>){
+			first = mid + 1;
+			return search (a, first, last, sought); 
+		}
+		return mid;
+	}
+```
+```
+(A) a[mid] > sought  		a[mid] < sought
+(B) a[mid] + 1 > sought  	a[mid] < sought 
+(C) a[mid] > sought			a[mid] -1 < sought
+(D) a[mid] + 1 > sought 	a[mid] -1 < sought
+(E) a[mid] = sought  		a[mid] = sought
+```  
 

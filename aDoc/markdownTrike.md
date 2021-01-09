@@ -1,7 +1,7 @@
 # Markdown Trick
 
 ## Display unicode
-
+* Usefule special characters
 &#9658;
 &#767;
 &#9472;
