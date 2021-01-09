@@ -13,6 +13,7 @@ password: instructor
 English	|Chinese	|Gender	|Birthday	|Parent	|Home Phone	|Cell Phone	|Email	|Payment	|Grade	|Attend
 Anselm, Lauren	|安 僑綸	|Female	|6/8/2005M	|蕭 育平	|281-277-9725	|281-781-4852	|ayanselm@gmail.com	|Not Paid	|Grades	|Attendances
 Tan, Rachel	|陈 乐旋	|Female	|1/23/2004 	|管 涛	|832-538-6668	|832-538-6668	|tguan@outlook.com	|Not Paid	|Grades	|试课 (Try Class)
+Cui, Angela	|崔 心蕊	|Female	|6/28/2007	|李 晶	|949-400-0351	|949-400-0351	|happyleejing@hotmail.com	|Not Paid	|Grades	|Attendances
 
 ## 星期五 6:00PM
 
