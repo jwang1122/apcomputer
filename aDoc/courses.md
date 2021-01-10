@@ -29,3 +29,11 @@ jiawanjunshi@hotmail.com;
 happyleejing@hotmail.com;
 risingch2012@gmail.com;
 minli2874@gmail.com;
+
+## AP Computer answers
+
+Name | answers
+|---|---|
+Cui, Angela   |1E
+Lauren Anselm |1E
+Rachel        |1E

@@ -1,5 +1,6 @@
 # 华夏中文学校 AP Computer Science
 [Princeton Review](https://dashboard.princetonreview.com/)
+
 ## Table of Contents
 - [华夏中文学校 AP Computer Science](#华夏中文学校-ap-computer-science)
   - [Table of Contents](#table-of-contents)
@@ -10,9 +11,15 @@
   - [Create Instance of Class](#create-instance-of-class)
   - [Array](#array)
   - [String](#string)
+  - [Operator](#operator)
   - [Loop](#loop)
+  - [If-else](#if-else)
+  - [Function](#function)
+  - [Data Structure](#data-structure)
   - [Complete Class](#complete-class)
     - [Section II](#section-ii)
+  - [Questions](#questions)
+  - [*](#)
 
 ## Score Conversion
 * Weighted score
@@ -27,7 +34,7 @@
 
 ## Precedence of Arithmatic operators
 * Question1_3.java;
-* Java Operator Precedence
+  **Java Operator Precedence**
   
 Operators	|Precedence
 |---        |---        |
@@ -79,12 +86,29 @@ assignment	|= += -= *= /= %= &= ^= |= <<= >>= >>>=
 * Array1.java; passed by reference
 
 ## String
-* Question11.java; String index, String.length(), String.substring(), List.size(), array.length
+* Question10.java; memory location
+* Question11.java; String index, String.length(), String.substring(), List.size(), array.length; String==char[]
 
+## Operator
+* Question1_3.java; precendence of operators,
+* Question9.java; logical operator
+  
 ## Loop
 * Question12.java; Embedded for-loop count
 * Question14.java; 1. how many symble? 2. start with symble or space?
 * Question15.java; stop calculate when the number reach the point.
+
+## If-else
+* Question7.java;
+* Question8.java;
+
+
+## Function
+* Constellation.java; Constructor signature
+* Question17.java; recursion call
+
+## Data Structure
+* Question40.java; Binary search
 
 ## Complete Class
 ### Section II
@@ -94,3 +118,23 @@ assignment	|= += -= *= /= %= &= ^= |= <<= >>= >>>=
 Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
 
 [Official Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random--)
+
+## Questions
+* Question1_3.java; Precedence of operators, int/int->int, escape sequence [Perecedence](#precedence-of-arithmatic-operators)
+* Question4.java; Pass by reference [Pass By Reference](#method-pass-by-reference)
+* Constellation.java; Constructor signature
+* Question7.java; if-else
+* Question8.java; if-else, String.compareTo(), sort()
+* Question9.java; logical operator
+* Question10.java; memory location
+* Question11.java; string==>character array
+* Question12.java; loop
+* Question13.java; loop & if-else, try small n
+* Question14.java; 1. how many symble? 2. start with symble or space?
+* Question15.java; stop calculate when the number reach the point.
+* Question16.java; loop, if-else
+* Question17.java; recursion call
+* Question40.java; Binary search
+* 
+---
+[Table of Contents](#table-of-contents)

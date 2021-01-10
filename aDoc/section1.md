@@ -268,7 +268,7 @@ dog1 and dog3 are the same breed.
 (E) int i = str1.length() - 1;
 	while (i>0)
 ```
-12. Consider the following code expect:
+12. Consider the following code excerpt:
 ```java
 		int n = // some integer greater than zero
 		int count = 0;
