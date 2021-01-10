@@ -23,3 +23,4 @@ Page | Question | Error |Correction |Description
 38 | 1-Value Returned/Comment |A DiceSimulation d1...|A DiceSimulation s1...|No d1 declared in the code.
 42 |3 |*/ otherwise false; */ (the) | otherwise false */|comments should be between /** and */, next following couple of lines have the same issue, if you type this code in Eclipse, will cause a lot of errors.
 43 |table row 2|Tours t1 = new Tours(...|Tour t1 = new Tour(...|No Tours class defined
+47 |4 |Seating Chart|SeatingChart|class name should not include a space

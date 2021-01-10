@@ -218,5 +218,134 @@ The following table contains sample code and the expected results.
 Statements and Expressions |Value Returned (blank if no value)|Comment 
 |---|---|---|
 TravelPlan p1 = new TravelPlan("Capetown"); ||Creates an instance with a destination | "CapeTown” and an empty arraylist of type Tour
-Tours tl = new Tours (12132020,800,1230,"Bungee jumping”);||Create a Tour instance with date, start time, end time, and activity
+Tours t1 = new Tours (12132020,800,1230,"Bungee jumping”);||Create a Tour instance with date, start time, end time, and activity
+Tours t2 = new Tours (12132020,900,1430,"Body surfing”);||Create a Tour instance with date, start time, end time, and activity
+p1.addtour(t1) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
+p1.addtour(t2) |false|Checks for conflicts in plans, since there is conflicts, returns true 
+Tours t3 = new Tours(12132020,1400,1700,"Shark cage diving”);||Create a Tour instance with date, start time, end time, and activity
+p1.addtour(t3) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
+Tours t4 = new Tours (1222020,800,1700,"Deep sea fishing”);||Create a Tour instance with date, start time, end time, and activity
+p1.addtour(t4) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
 
+
+(a) Write the TravelPlan constructor. 
+
+**Class information for this question **
+```java
+public class Tour 
+private int act Date
+private int startTime 
+private int endTime 
+private string activity 
+
+Tour (int actDate,int startTime, int endTime, String activity)
+public int getActDate() 
+public int getStartTime()
+public int getEndTime() 
+public String getActivity() 
+
+public class TravelPlan
+private String destination;  
+private Arrayliist<Tour> plans; 
+
+public TravelPlan (String destination) 
+public boolean checkForConflicts(Tour t) 
+public boolean addTour(Tourt t) 
+```
+
+(b) Write the TravelPlan checkForConflicts method. 
+
+(c) Write the TravelPlan addTour method.
+
+4. This question involves the implementation of a class SeatingChart. A seating chart object will represent a two-dimensional String array. The number of rows and columns for the array will be sent as parameters, as well as a one-dimensional arry of type Name. You may assume there will be enough rows and columns to accommodate all the entries from the array.
+
+The declaration of the Name class is shown.
+```java
+public class Name {
+	private String lastName; 
+	private String firstName; 
+	
+	Name (String lName, String fName) {< implementation not shown>}
+	public String getLastName(){return lastName; }
+	public String getFirstName(){ return firstName; } 
+}
+```
+A partial declaration of the Seatingchart class is shown below. 
+
+```java
+public class SeatingChart {
+	private String[][] chart; 
+	/** Constructs a SeatinqChart having r rows and c columns. All elements contained in the
+	 *  names array should be placed randomly in the chart array using the format: lastName
+	 *  first Name (e-g. Johlie, Angelina). Any locations not used in the chart should be  
+	 *  initialized to the empty string. 
+	 */
+	SeatingChart (Name[] names, int rows, int cols) {
+		/* to be implemented in part (a) */ 
+	}
+	
+	/** Returns a string containing all elements of the chart array in row-major order.
+	 * The method should return 
+	 * a string containing all the elements in the chart array. The method 
+	 * padWithSpaces should be called on each
+	 * element of chart before it is added to the string to ensure each name will be 
+	 * printed with the same
+	 * length. Each row of the chart should be separated by a line break.    
+	 */
+	public String toString() {
+		/* to be implemented in part (b)	*/ 
+	}
+	
+	/** pads a string with spaces to ensure each string is exactly 35 characters long. */ 
+	
+	private String padWithSpaces (String s) {
+		String str = s;
+		for (int a = s.length(); a<35; a++ ) {
+			str += " ";
+		}
+		return str; 
+	}
+}
+```
+The following table contains sample code and the expected results.
+
+Statements and Expressions |Value Returned / Comment 
+|---|---|
+SeatingChart msJones = new SeatingChart(theNames, 4, 3);|| (no value returned) A two dimensional array is initialized with 4 rows and 3 columns. Every element in theNames is placed randomly in chart in the following format: lastname, firstname e.g., Washington, George. Empty string is placed in any unused locations.
+System.out.println(msJones.toString);|Prints the names in chart in row-major order. See example below:
+
+```
+Miller, Minnie 			Fitzgerald,Fred 			Dade,Ali 
+Indigo, Inde			Banner, BorisBoris 			Lane, Lois
+Titon, Tim				Robilard,Robbie
+Brne, Jane  
+```
+(a) Write the SeatingChart constructor.
+
+**Class information for this question **
+
+```java
+public class Name 
+	private String lastName; 
+	private string firstName;
+
+	Name (String lName, String fName) 
+	public String getLastName(){ return lastName; } 
+	public String getFirstName () {return firstName; } 
+
+public class SeatingChart
+	private String[][] chart;
+
+	SeatingChart(Name[] names, int rows, int cols ])
+	public String toString()
+	private String padWithSpaces(String s) 
+```
+
+(b) Write the SeatingChart toString() method. 
+
+<div>
+<center><h2>STOP</h2></center> 
+
+<center><h2>END OF EXAM</h2></center>
+<hr> 
+</div>
