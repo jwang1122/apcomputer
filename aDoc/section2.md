@@ -145,7 +145,7 @@ The CalorieCount class provides a constructor and the following methods:
 
 The following table contains a sample code and the expected results. 
 
-Statementsand Expressions |Value Returned |Comment 
+Statementsand Expressions |Value Returned (blank if no value) |Comment 
 |---|---|---|
 CalorieCount sunday= new CalorieCount(1500); | |Creates an instance with a 1500 calorie limit
 sunday.addMeal(716,38,38,45) ||Adds 716 calories, 38 grams protein. 8 grams of carbs, 45 grams of fat to the appropriate in stance fields 
@@ -154,4 +154,69 @@ sunday.addMeal(568,38,50,24) ||Adds 568 calories, 38 grams protein. 50 grams of 
 onTrack() |False |Returns true if calorie intake does not exceed calorie limit 
 getProteinPercentage() |.24 | Multiplies grams of protein by 4 then divides by calorie intak 
 
+---
 Write the entire CalorieCount class. Your implementation must meet all specifications and conform to all examples. 
+
+3. This question involves the implementation of a Travel Planner system that is represented by the Travelplan and Tour classes. A client will create Tour objects that will represent tours or activities of interest. Each tour object is made up of an activity date, start time, end time, and name of the activity- The client will also create a Travelplan object comprised of a destinatior and an arraylist of Tours. You will write three methods of the TravelPlan class. 
+
+A partial declaration of the Tour class is shown below. 
+```java
+public class Tour {
+	private int actDate;// date is in mwddyyyy format 
+	private int startTime; // times are represented in military format 
+	private int endTime; // 1430 for 2:30 pm
+	private String activity; 
+	
+	/** constructs a Tour 
+	 * All instance fields are initialized 
+	 */
+	Tour (int actDate, int startTime, int endTime, String activity) 
+	{
+		// implementation not shown 
+	}
+	public int getActDate()	{ return actDate; } 
+	public int getStartTime () { return startTime;} 
+	public int getEndTime (){ return endTime; } 
+	public String getActivity(){ return activity;} 
+}
+```
+A partial declaration of the TravelPlan class is shown below. 
+```java
+import java.util.ArrayList;
+
+public class TravelPlan {
+	private String destination; 
+	private ArrayList <Tour> plans; 
+	
+	/** Constructs a Tour 
+	 * Instance fields : destination and plans are initialized 
+	 */
+	TravelPlan (String destination) 
+	{
+		/* to be implemented in part (a)	*/ 
+	}
+	/** Returns true if the timeframe in t overlaps with another Tour in plans;
+	 * otherwise false
+	 */
+	public boolean checkForConflicts (Tour t) 
+	{
+		/* to be implemented in part(b) */ 
+	}
+	
+	/** Must call checkForConflicts for full credit, if checkForConflicts returns false
+	 * (the timeframe does not overlap), adds t to plans. Returns true if
+	 * t was added, otherwise returns false 
+	 */
+	public boolean addTour(Tour t) 
+	{
+		/* to be implemented in part(c) */ 
+	}
+}
+```
+The following table contains sample code and the expected results. 
+
+Statements and Expressions |Value Returned (blank if no value)|Comment 
+|---|---|---|
+TravelPlan p1 = new TravelPlan("Capetown"); ||Creates an instance with a destination | "CapeTown” and an empty arraylist of type Tour
+Tours tl = new Tours (12132020,800,1230,"Bungee jumping”);||Create a Tour instance with date, start time, end time, and activity
+

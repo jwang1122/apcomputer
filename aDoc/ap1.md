@@ -72,9 +72,13 @@ assignment	|= += -= *= /= %= &= ^= |= <<= >>= >>>=
 
 ![memory](memory.gif)
 
-![moving star](synfig3.gif)
+![Handle Pass by reference](question4.png)
 
-[Sting class document](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
+![Java Data Type](Data-types-in-Java.jpg)
+
+* PassByReference.java; swap student, int, String
+  
+[String class document](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html)
 
 ## Create Instance of Class
 * Constellation.java; 
