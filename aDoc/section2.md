@@ -218,14 +218,14 @@ The following table contains sample code and the expected results.
 Statements and Expressions |Value Returned (blank if no value)|Comment 
 |---|---|---|
 TravelPlan p1 = new TravelPlan("Capetown"); ||Creates an instance with a destination | "CapeTown” and an empty arraylist of type Tour
-Tours t1 = new Tours (12132020,800,1230,"Bungee jumping”);||Create a Tour instance with date, start time, end time, and activity
-Tours t2 = new Tours (12132020,900,1430,"Body surfing”);||Create a Tour instance with date, start time, end time, and activity
-p1.addtour(t1) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
-p1.addtour(t2) |false|Checks for conflicts in plans, since there is conflicts, returns true 
-Tours t3 = new Tours(12132020,1400,1700,"Shark cage diving”);||Create a Tour instance with date, start time, end time, and activity
-p1.addtour(t3) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
-Tours t4 = new Tours (1222020,800,1700,"Deep sea fishing”);||Create a Tour instance with date, start time, end time, and activity
-p1.addtour(t4) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
+Tours t1 = new Tours (12132020,800,1230,"Bungee jumping");||Create a Tour instance with date, start time, end time, and activity
+Tours t2 = new Tours (12132020,900,1430,"Body surfing");||Create a Tour instance with date, start time, end time, and activity
+p1.addTour(t1) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
+p1.addTour(t2) |false|Checks for conflicts in plans, since there is conflicts, returns true 
+Tours t3 = new Tours(12132020,1400,1700,"Shark cage diving");||Create a Tour instance with date, start time, end time, and activity
+p1.addTour(t3) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
+Tours t4 = new Tours (1222020,800,1700,"Deep sea fishing");||Create a Tour instance with date, start time, end time, and activity
+p1.addTour(t4) |true|Checks for conflicts in plans, since there are none, adds the Tour object, returns true 
 
 
 (a) Write the TravelPlan constructor. 
