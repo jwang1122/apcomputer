@@ -27,7 +27,7 @@ Page | Question | Error |Correction |Description
 48 |expected result | 5 rows | should be 4 rows |something wrong
 65 |(a),(b),(c)|no Canonical Code | |Answer part shold provide Canonical Code
 66 |(b)|additional } on the end | should be removed | unbalanced {}
-
+122|8|int n = t.IndexOf("the");|int n = t.indexOf("the");|indexOf() method start with lowercase.
 **Error on page 42:**
 
 ![Error on page 42](error42.jpg)
