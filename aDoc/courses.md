@@ -11,7 +11,7 @@
 ## Weekdays Classes
 * 星期一 06:00 PM Python-I
 
-* 星期五 6:00PM AP Computer
+* 星期五 6:00PM AP Computer (Canceled)
 
 
 ## All Students Email

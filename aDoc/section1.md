@@ -185,6 +185,9 @@ which of the three will compile without compiler error?
 ```
 9. Using following variable declarations, determine which one of the following evaluate to true.
 ```java
+`int temp= 90;
+boolean cloudy= false;
+  
 I. if (temp >= 90 && !cloudy)
 II. if (!(temp > 90 || cloudy))
 III. if (!(temp >= 90 && !cloudy))
@@ -452,7 +455,7 @@ III.public static int f(int n) {
 (D) II and III only
 (E) I, II and III
 ```
-18. Given the following code except for the Tile Class:
+18. Given the following code excerpt for the Tile Class:
 ```java
 public class Tile {
 	private int styleNumber;
@@ -720,22 +723,27 @@ III.ArrayList<Double> alist3;
 (E) An IndenxOutOfBoundsException will occur
 ```
 Question 29-30 refer to the following code expcerpt.
-```JAVA
-	ArrayList<Integer> alist5 = new ArrayList<Integer>();
-	int[] a1 = { 21, 6, 2, 8, 1 };
-	for (int a : a1) {
-		alist5.add(a);
-	}
-	for (int k = 0; k < alist5.size() - 1; k++) {
-		for (int i = 0; i < alist5.size() - 2; i++) {
-			if (alist5.get(i) > alist5.get(i + 1)) {
-				int hold = alist5.remove(i);
-				alist5.add(i + 1, hold);
-			}
-		}
-	}
-	System.out.println(alist5);
-```
+
+	```JAVA
+	2	ArrayList<Integer> alist5 = new ArrayList<Integer>();
+	3	int[] a1 = { 21, 6, 2, 8, 1 };
+	4	for (int a : a1) 
+	5	{
+	6		alist5.add(a);
+	7	}
+	8	for (int k = 0; k < alist5.size() - 1; k++) 
+	9	{
+	10		for (int i = 0; i < alist5.size() - 2; i++) 
+	11	{
+	12			if (alist5.get(i) > alist5.get(i + 1)) 
+	13			{
+	14				int hold = alist5.remove(i);
+	15				alist5.add(i + 1, hold);
+	16			}
+	17		}
+	18	}
+	19	System.out.println(alist5);
+	```
 29. How many times will line 12 be executed? 
 
 ```
@@ -754,6 +762,7 @@ Question 29-30 refer to the following code expcerpt.
 (E) [1, 2, 6, 8, 21] 
 ```
 31. Given nums—a rectanglular, but not necessarily square, two-dimensional array of integers, choose the code to correctly print the array:
+
 ```java
 	int[][] arr2d = { { 1, 2, 3, 4 }, { 5, 6, 7, 8 } };
 	String s = "";
@@ -862,7 +871,7 @@ public class Xylophone extends Percussion{
 	}
 }
 ```
-33. Which of the following is the most appropriate replacement for <niissing code> in the Xylophone constructor?
+33. Which of the following is the most appropriate replacement for <missing code> in the Xylophone constructor?
 ```java
 (A) this.numberOfKeys = numberOfKeys;
 	super (name, weight);
