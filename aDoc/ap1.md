@@ -4,6 +4,7 @@
 ## Table of Contents
 - [华夏中文学校 AP Computer Science](#华夏中文学校-ap-computer-science)
   - [Table of Contents](#table-of-contents)
+  - [Training NOT Learning](#training-not-learning)
   - [How to crack?](#how-to-crack)
   - [Score Conversion](#score-conversion)
   - [Data Type](#data-type)
@@ -21,6 +22,15 @@
     - [Section II](#section-ii)
   - [Questions](#questions)
   - [*](#)
+
+## Training NOT Learning
+AP Computer class is a training class, not learning class, which means we will repeat answer same kind of questions again and again till we can answer the question correct subconsciousl.
+
+What I suggest is collection as much questions as possible for the future practice just before you take the exam.
+
+I encorage you generate a sequence of random number between your collection, do the question set everyday. for instance, you have 200 questions, generate 10 random numbers betwee 1 and 200, and do those 10 questions everyday.
+
+Write the Java program, generate 10 random numbers between given range.
 
 ## How to crack?
 [Quiz-1](quiz1.pdf)
