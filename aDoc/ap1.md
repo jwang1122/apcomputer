@@ -21,7 +21,6 @@
   - [Complete Class](#complete-class)
     - [Section II](#section-ii)
   - [Questions](#questions)
-  - [*](#)
 
 ## Training NOT Learning
 AP Computer class is a training class, not learning class, which means we will repeat answer same kind of questions again and again till we can answer the question correct subconsciousl.
@@ -131,6 +130,9 @@ Write the Java program, generate 10 random numbers between given range.
 
 ![Composited Final Score](compositeScore.png)
 
+---
+[Table of Contents](#table-of-contents)
+
 ## Data Type
 
 ![Java Data Type](Data-types-in-Java.jpg)
@@ -167,6 +169,9 @@ assignment	|= += -= *= /= %= &= ^= |= <<= >>= >>>=
 三元算符在后头，
 赋值永远最后建。
 ```
+
+---
+[Table of Contents](#table-of-contents)
 
 ## Method Pass by Reference
 * Question4.java; String is immutable
@@ -242,6 +247,6 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 * Question16.java; loop, if-else
 * Question17.java; recursion call
 * Question40.java; Binary search
-* 
+ 
 ---
 [Table of Contents](#table-of-contents)
