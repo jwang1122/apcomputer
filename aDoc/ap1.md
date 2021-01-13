@@ -112,6 +112,15 @@ Write the Java program, generate 10 random numbers between given range.
       (E) All of the above statements will compile. 
   >Because the **EXCEPT**, think about which one is a **FALSE** statement.
 * Thinking the way of the tester (allow tester make mistake)
+  1. Which of the following class declarations would cause a compile-time error? Assume the rest of the code compiles as intended. 
+
+  	```java
+  	(A) public class Calculus
+  	(B) public class apCalculus  
+  	(C) public class APCalculus 
+  	(D) public class 4Apcalculus 
+  	(E) public class APCalculusextends Calculus 
+  	```
   1. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
 
     ```java

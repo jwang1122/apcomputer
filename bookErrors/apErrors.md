@@ -31,6 +31,11 @@ Page | Question | Error |Correction |Description
 144|6-(B)|The value ... is ... |The values ... are ...| two values should use plural
 144|6-(C)|The value ... is ... |The values ... are ...| two values should use plural
 145|after table|Choice (B) is the only false statement| Choice (B) is true statement|someNum==2 for both I and II 
+147|1-(E)|for (int x=1; x<=5;x++|for (int x=1; x<=5;x++)|miss ) ant end
+149|4|... !(a | | b);|... !(a || b);|the code will not compile
+150|7|System.out.println(x)|System.out.println(x);|miss ; at end
+
+
 
 **Error on page 42:**
 
@@ -40,7 +45,7 @@ Page | Question | Error |Correction |Description
 
 ![Error on page 43](error43.jpg)
 
-## Bad sample code
+## Sample questions of Controversy
 Consider the sample question on page 104 and 107:
 * Sample on page 104 says
   1. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
@@ -60,14 +65,16 @@ Consider the sample question on page 104 and 107:
     (A) system.out.print(1);
     (B) System.out.print("1");  
     (C) System.out.print(side1); 
-    (D) System.out.print"side1");
+    (D) System.out.print("side1");
     (E) All of the above statements will compile. 
     ```
     ... Therefor, (C) is the answer. ...
 
-Both questions are the same, but the answer really confuse reader. It seems to me on question 1, the choice (E) is treated as a Java code, but on question 2, choice (E) is **NOT**. Beside, if (C) is the exception, and (E) will be false statement no matter it is treated as Java code or not.
+Both questions are the same, but the answer may mislead reader. I think these two questions contradict each other. In question 1, the choice "(E) All of the above statements will compile." is metalanguage, and freqently used in multiple-choice quiz, not Java language code. In question 2, if side1 is defined in other place in the program, (C) also compile. If side1 is not defined and question 1 is right, then (C) and (E) are both not compile. 
 
+---
 
+---
 Feel free to contact to me for any reason.
 
 Error Finder Name: John Q. Wang
@@ -75,3 +82,4 @@ Error Finder Name: John Q. Wang
 Email: wangqianjiang@live.com
 
 Phone: (281) 818-2512
+
