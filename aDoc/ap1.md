@@ -21,6 +21,8 @@
   - [Complete Class](#complete-class)
     - [Section II](#section-ii)
   - [Questions](#questions)
+  - [Answers](#answers)
+  - [Referencea](#referencea)
 
 ## Training NOT Learning
 AP Computer class is a training class, not learning class, which means we will repeat answer same kind of questions again and again till we can answer the question correct subconsciousl.
@@ -119,7 +121,7 @@ Write the Java program, generate 10 random numbers between given range.
   	(B) public class apCalculus  
   	(C) public class APCalculus 
   	(D) public class 4Apcalculus 
-  	(E) public class APCalculusextends Calculus 
+  	(E) public class APCalculus extends Calculus 
   	```
   1. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
 
@@ -246,7 +248,8 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 ## Questions
 * Question1_3.java; Precedence of operators, int/int->int, escape sequence [Perecedence](#precedence-of-arithmatic-operators)
 * Question4.java; Pass by reference [Pass By Reference](#method-pass-by-reference)
-* Constellation.java; Constructor signature
+* Question5: Constellation.java; Constructor signature
+* Question6: Constellation.java;
 * Question7.java; if-else
 * Question8.java; if-else, String.compareTo(), sort()
 * Question9.java; logical operator
@@ -258,7 +261,41 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 * Question15.java; stop calculate when the number reach the point.
 * Question16.java; loop, if-else
 * Question17.java; recursion call
+* Question18: Tile.java; constructor varaible assignment
+* Question19: Tile.java; recursion call, method overloading
+* Question20: Tile.java; modifier
+* Question21.java; exclustion method, + table list
+* Question22.java; array reference (tag)
+* Question23.java; array reference
+* Question24.java; different answer
+* Question25.java; for each loop
+* Question26.java; pass by reference
+* Question27.java; ArrayList type sensitive
+* Question28.java; array remove, table, remove index is little tricky
+* Question29.java; recursion call
+* Question30: Question29.java; 2D array index
+* Question31.java; exclusion
+* Question32.java; 2-D array index
+* Question33: Percussion.java; constructor and inheritence
+* Question34: Xylophone.java; method signature
+* Question35: XylophoneTester.java; A **client** program
+* Question36: Dog.java; SportingDog.java; Retriever.java; DogTester.java; constructor
+* Question37: DogTester.java; constructor + toString()
+* Question38.java; wrong coding for pow() function
+* Question39.java; understand the recursion function call
 * Question40.java; Binary search
  
 ---
 [Table of Contents](#table-of-contents)
+
+## Answers
+1E 2D 3D 4A 5C 
+6E 7B 8A 9E 10C 
+11C 12D 13A 14C 15B 
+16B 17D 18C 19B 20D 
+21B 22E 23B 24D 25A 
+26C 27E 28A 29B 30D 
+31D 32B 33B 34S 35C 
+36D 37E 38E 39D 40A 
+## Referencea
+[MCQ for Java](https://www.javatpoint.com/java-mcq)

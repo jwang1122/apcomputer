@@ -689,7 +689,7 @@ Which of the following statements best reflects the outcome of the two methods?
 I. 	ArrayList<String> alist1 = new ArrayList<String>();
 	alist1.add("4.5");
 II. ArrayList<Integer> alist2 = new ArrayList<Integer>();
-	alist1.add((int)4.5); 
+	alist2.add((int)4.5); 
 III.ArrayList<Double> alist3;
 	alist3 = new ArrayList<Double>();
 	alist3.add(4.5); 
@@ -776,7 +776,7 @@ Question 29-30 refer to the following code expcerpt.
 ```
 Determine the resulting output. 
 ```
-(A) 1  2 3 4 
+(A) 1 2 3 4 
 	5 6 7 8  
 (B) 1 5 2 6
 	3 7 4 8

@@ -63,7 +63,7 @@
     (A) system.out.print(1);
     (B) System.out.print("1");  
     (C) System.out.print(side1); 
-    (D) System.out.print"side1");
+    (D) System.out.print("side1");
     (E) All of the above statements will compile. 
     ```
 5. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**

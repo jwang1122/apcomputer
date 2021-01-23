@@ -14,8 +14,9 @@ Page | Question | Error |Correction |Description
 20 | 16-line2      | String s = "map "; |String s = "map"    |wrong result.
 59 | 24-(D)    | the location |the locations |Answer sheet build wrong table based on the question
 27 |25-line56      |cause compiler error |should be removed |Defined variable cannot be defied again within the same scope.
+28 |27-II|alist1.add((int) 4.5);|alist2.add((int)4.5);|according to answer, use alist2 instead of alist1 
 33 |35-(D) |if (x2.weight.equals(x3.weight) | if (x2.weight.equals(x3.weight)) |missing ), which is not the test purpose.
-35 |38 | no correct answer listed| change line 4: return 1; |mystery() is not defined
+35 |38 | return b + pow(b, x-1);| return b * pow(b-x-1); |mystery() is not defined
 
 ## Section II
 Page | Question | Error |Correction |Description
@@ -70,7 +71,32 @@ Consider the sample question on page 104 and 107:
     ```
     ... Therefor, (C) is the answer. ...
 
-Both questions are the same, but the answer may mislead reader. I think these two questions contradict each other. In question 1, the choice "(E) All of the above statements will compile." is metalanguage, and freqently used in multiple-choice quiz, not Java language code. In question 2, if side1 is defined in other place in the program, (C) also compile. If side1 is not defined and question 1 is right, then (C) and (E) are both not compile. 
+Both questions are the same, but the answer may mislead reader. I think these two questions contradict each other. 
+
+In question 1, the choice "(E) All of the above statements will compile." is metalanguage, and freqently used in multiple-choice quiz, not Java language code. In the question, "EXCEPT" is used which tells reader to find a false statement, but (E) is a true statement, and should not be the answer. 
+
+In question 2, if side1 is defined in other place in the program, (C) also compile. In the question, it is not clear, if the side1 is defined or not, reader cannot assume it is defined, cannot assume it is NOT define either. If reader assume the above 4 lines of Java code is the only 4 lines in the main() method, then the answer is right, but it is rely on reader's assumtion.
+
+## Sample code has poor performance
+* On page 66, the book gives a Connonical Solution for question 4(a). Obviously, the idea is put ordered name array item into random chosen seat location. The performace is poor, since when most seats are occupied, it is harder to find empty location, besides, program need check the empty status all the time and generage a lot of random number for seat column and row. As a sample code solution, I think, the following code maybe better, which puts random name array item into fixed seat location:
+
+```java
+	SeatingChart(Name[] names, int r, int c) {
+		List<Name> list = Arrays.asList(names);
+		Collections.shuffle(list);
+		int count = 0;
+		chart = new String[r][c];
+		for (int i = 0; i < chart.length; i++) {
+			for (int j = 0; j < chart[0].length; j++) {
+				chart[i][j] = "";
+				if(count<list.size()) {
+					chart[i][j] = list.get(count++).toString();
+				}
+			}
+		}	
+	}
+```
+As you can see, these code is shorter and more efficient.
 
 ---
 
