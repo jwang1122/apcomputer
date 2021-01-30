@@ -185,7 +185,7 @@ which of the three will compile without compiler error?
 ```
 9. Using following variable declarations, determine which one of the following evaluate to true.
 ```java
-`int temp= 90;
+int temp= 90;
 boolean cloudy= false;
   
 I. if (temp >= 90 && !cloudy)

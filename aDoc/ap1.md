@@ -243,6 +243,12 @@ assignment	|= += -= *= /= %= &= ^= |= <<= >>= >>>=
 >static double	random()
 Returns a double value with a positive sign, greater than or equal to 0.0 and less than 1.0.
 
+* CalorieCount.java;
+
+* Tour.java (main: TravePlan.java)
+
+* SeatingChart.java (main); Name.java
+  
 [Official Documentation](https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random--)
 
 ## Questions

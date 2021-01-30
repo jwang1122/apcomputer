@@ -17,6 +17,7 @@ Page | Question | Error |Correction |Description
 28 |27-II|alist1.add((int) 4.5);|alist2.add((int)4.5);|according to answer, use alist2 instead of alist1 
 33 |35-(D) |if (x2.weight.equals(x3.weight) | if (x2.weight.equals(x3.weight)) |missing ), which is not the test purpose.
 35 |38 | return b + pow(b, x-1);| return b * pow(b-x-1); |mystery() is not defined
+52 |9. E| 9. E | 9. D| I and II return true, III return false
 
 ## Section II
 Page | Question | Error |Correction |Description
@@ -60,7 +61,8 @@ Consider the sample question on page 104 and 107:
     ```
     ... Therfore, (E) is correct.
 * Sample on page 107 says
-  2. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
+  
+  1. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
 
     ```java
     (A) system.out.print(1);

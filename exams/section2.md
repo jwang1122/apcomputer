@@ -12,8 +12,9 @@ Directions: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN
 1. This question involves the implementation of a simulation rolling two dice. A client program will specify the number of rolls of the sample size and the number of faces on each of the two dice. A method will return the percentage of times the roll results in a double. Double in this case means when two dice match or have the same value (not a data type). 
 
 You will write two of the methods in this class. 
+
 ```java
-publicclass DiceSimulation { 
+public class DiceSimulation { 
 	/** Sample size of simulation */ 
 	private int numSampleSize; 
 
@@ -22,21 +23,21 @@ publicclass DiceSimulation {
 
 	/** Constructs a Dicesimulation where sampleSize is the number of rolls to be simulated and faces is the number of faces on the die (some die have many more or less than 6 faces)  
 	*/
-	public Dicesimulation(int numSamples, int faces) { 
+	public DiceSimulation(int numSamples, int faces) { 
 		numSamp1eSize = numSamples; 
 		numFaces= faces; 
 	}
 
 	/** Returns an integer from 1 to the number of faces to simulate a die roll */ 
 	public int roll() { 
-		implemented in part (a)
+		/* implemented in part (a) */
 	}
 
 	/** simulates rolling two die with the number faces given, for the number of sample size rolls. Returns the percentage of matches that were rolled 
 	as an integer (eg. 0-$0 would be 50) 
 	*/
 	public int runSimlation(){
-		implemented in part(b) 
+		/* implemented in part(b)  */
 	}
 }
 ```
@@ -88,9 +89,10 @@ public int roll ()
 ```
 
 (b) Write the runSimulation method. 
-```java
+
 Class information for this question 
 
+```java
 public class Dicesimulation 
 private int numSamplesize;
 private int numFaces;  
