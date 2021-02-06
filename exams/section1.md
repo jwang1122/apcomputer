@@ -261,13 +261,13 @@ dog1 and dog3 are the same breed.
 ```
 ```
 (A) int i = 0;
-	while(i<str1.length);
+	while(i<str1.length)
 (B) int i = str1.length();
-	while (i >=0);
+	while (i >=0)
 (C) int i = str1.length() - 1;
-	while (i >=0);
+	while (i >=0)
 (D) int i = str1.length();
-	while (i>0);
+	while (i>0)
 (E) int i = str1.length() - 1;
 	while (i>0)
 ```

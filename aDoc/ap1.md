@@ -296,7 +296,7 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 
 ## Answers
 1E 2D 3D 4A 5C 
-6E 7B 8A 9E 10C 
+6E 7B 8A 9D 10C 
 11C 12D 13A 14C 15B 
 16B 17D 18C 19B 20D 
 21B 22E 23B 24D 25A 
