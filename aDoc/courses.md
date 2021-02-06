@@ -2,7 +2,7 @@
 
 ## Weekend classes
 * 星期六 09:00 AM AP Computer 
-* 星期六 11:00 AM (成人课) Python-I
+* 星期六 11:00 AM (成人课) Python-I （Canceled）
 * 星期六 01:00 PM Python-I
 * 星期六 3:00 PM Python-II
 
@@ -10,6 +10,7 @@
 
 ## Weekdays Classes
 * 星期一 06:00 PM Python-I
+* 星期二 06:00 PM Java-II
 
 * 星期五 6:00PM AP Computer (Canceled)
 
