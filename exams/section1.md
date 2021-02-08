@@ -1,6 +1,6 @@
 # AP Computer Sicence Section I
 
-1. Evaluate the following expression: 4 + 6 % 12/4?
+1. Evaluate the following expression: 4 + 6 % 12/4? (page 12)
 ```
 (A) 1
 (B) 2
@@ -8,7 +8,7 @@
 (D) 4.5
 (E) 5
 ```
-2. Which of the following expressions does **not** evaluate to 0.2?
+2. Which of the following expressions does **not** evaluate to 0.2? (page 12)
 ```java
 (A) (1.0 * 2.0) / (1.0 * 10);
 (B) 2.0 / 10;
