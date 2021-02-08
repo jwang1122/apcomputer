@@ -1,4 +1,11 @@
 # AP COMPUTER quiz5
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 
 1. Which of the following statements would best describe an efficient design to represent a pair of sunglasses? (page 160)
 
@@ -9,7 +16,7 @@
 	(D) A PairOfSunglasses class with methods that unfold, clean, and wear the objects in the class 
 	(E) A UseSunglasses class with statements that unfold, clean, and wear the sunglasses 
 	```
-1. Given the following code excerpt: (page 23)
+2. Given the following code excerpt: (page 23)
 
 	```java
 		int[] nums = { 11, 22, 33, 44, 55, 66 };
@@ -31,7 +38,7 @@
 	(D) 11, 22, 22, 33, 33, 55
 	(E) 11, 22, 33, 44, 55, 66
 	```
-1. Evaluate the following expression: 4 + 6 % 12/4? (page 12)
+3. Evaluate the following expression: 4 + 6 % 12/4? (page 12)
 
 	```
 	(A) 1
@@ -40,7 +47,7 @@
 	(D) 4.5
 	(E) 5
 	```
-1. Which of the following expressions does **not** evaluate to 0.2? (page 12)
+4. Which of the following expressions does **not** evaluate to 0.2? (page 12)
 
 	```java
 	(A) (1.0 * 2.0) / (1.0 * 10);
@@ -49,7 +56,7 @@
 	(D) (double)(2 / 10);
 	(E) Math.sqrt(4) / Math.sqrt(100);
 	```
-1. Choose the code used to print the following: (page 12)
+5. Choose the code used to print the following: (page 12)
    
    "Friends"
 

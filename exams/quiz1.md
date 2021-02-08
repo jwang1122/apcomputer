@@ -1,7 +1,15 @@
+# AP COMPUTER quiz3
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 1. Consider the following code segment: 
    
    ```java
-    1   int a 10;
+    1   int a = 10;
     2   double b = 10.7; 
     3   int d = a + b;  
    ```
@@ -60,7 +68,7 @@
 4. Assuming all other statements in the program are correct, each of the following statements will allow the program to compile **EXCEPT**
 
     ```java
-    (A) system.out.print(1);
+    (A) System.out.print(1);
     (B) System.out.print("1");  
     (C) System.out.print(side1); 
     (D) System.out.print("side1");

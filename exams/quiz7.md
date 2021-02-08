@@ -1,4 +1,11 @@
 # AP COMPUTER quiz7
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 
 1. Choose the missing code below that will accurately find the average of the values in the sales array.
 

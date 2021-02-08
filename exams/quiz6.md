@@ -1,4 +1,11 @@
 # AP COMPUTER quiz6
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 
 Question 1-2 refer to the Constellation class below:
 ```java
@@ -31,13 +38,13 @@ public class Constellation {
 }
 ```
 1. Using Constellation class, which of the following will cause compiler error?
-```
-(A) Constellation c1 = new Constellation("Hercules", "July");
-(B) Constellation c2 = new Constellation("Pisces", "Nov", 90, 65);
-(C) Constellation c3 = new Constellation("Aquarius", "Oct", 65.0, 9.0);
-(D) Constellation c4 = new Constellation("Leo", "4", 0, 0);
-(E) Constellation c5 = new Constellation("Phoenix", "Nov", 32, 90);
-```
+    ```java
+    (A) Constellation c1 = new Constellation("Hercules", "July");
+    (B) Constellation c2 = new Constellation("Pisces", "Nov", 90, 65);
+    (C) Constellation c3 = new Constellation("Aquarius", "Oct", 65.0, 9.0);
+    (D) Constellation c4 = new Constellation("Leo", "4", 0, 0);
+    (E) Constellation c5 = new Constellation("Phoenix", "Nov", 32, 90);
+    ```
 2. A programmer has attempted to add three mutator methods to use Constellation class.
 
     ```java
@@ -117,7 +124,6 @@ public class Constellation {
         
         for(int element: arr3)
             System.out.print(element + " ");
-    }
     ```
     ```
     (A) 1, 2, 3, 4, 5, 6

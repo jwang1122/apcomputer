@@ -1,4 +1,11 @@
 # AP COMPUTER quiz4
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 
 1. Consider the following code:
 
@@ -45,7 +52,7 @@
         ma
         m
     ```
-1. A factorial is shown by an exclamation point(!) following a number. The factorial of 5 or 5! is calculated by (5)(4)(3)(2)(1)=120.
+2. A factorial is shown by an exclamation point(!) following a number. The factorial of 5 or 5! is calculated by (5)(4)(3)(2)(1)=120.
 
     Assuming n is an integer greater than 1. Choose the method that will return n!
 
@@ -81,7 +88,7 @@
     (D) II and III only
     (E) I, II and III
     ```
-1. Given the following code excerpt for the Tile Class:
+3. Given the following code excerpt for the Tile Class:
 
     ```java
     public class Tile {
@@ -120,6 +127,7 @@
         public String toString() {
             return (styleNumber + " " + color + " " + width + " " + height + " " + material + " " + price);
         }
+    }
     ```
     What is the output after the following client code is executed?
 
@@ -135,7 +143,7 @@
     (D) 785 grey 0.0 0.0 ceramic 6.95
     (E) 785 grey 0.0 0.0 marble 6.95
     ```
-1. What is the output after the followingclient code is executed?
+4. What is the output after the followingclient code is executed?
 
     ```java
         Tile t2 = new Tile(101, "blue");
@@ -148,7 +156,7 @@
     (D) NullPointerException
     (E) There will be no output; the program will not compile
     ```
-1. The Tile Class is going to be used for an application built for a small independent tile store. The owner wants the programmer to add a field for the number of unopened boxes of tile he has for each style of tile he has in stock and a method to change the value. What would be the proper declaration for this field?
+5. The Tile Class is going to be used for an application built for a small independent tile store. The owner wants the programmer to add a field for the number of unopened boxes of tile he has for each style of tile he has in stock and a method to change the value. What would be the proper declaration for this field?
 
     ```java
     (A) public static int inventory;

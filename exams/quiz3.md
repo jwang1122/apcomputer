@@ -1,5 +1,11 @@
 # AP COMPUTER quiz3
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
 
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 1. Choose the correct option to complete lines 3 and 4 such that str2 will contain the letters of str1 in reverse order.
 
     ```java
@@ -26,7 +32,7 @@
     (E) int i = str1.length() - 1;
         while (i>0)
     ```
-1. Consider the following code excerpt:
+2. Consider the following code excerpt:
 
     ```java
             int n = // some integer greater than zero
@@ -49,7 +55,7 @@
 
     (E) $n^2$
 
-1. Given the following code excerpt, determine the output:
+3. Given the following code excerpt, determine the output:
 
     ```java
         int x = 0;
@@ -67,7 +73,7 @@
     (D) 1 0 2 0 3 0
     (E) ArithmeticException: Divide by zero
     ```
-1. Consider the following code:
+4. Consider the following code:
 
     ```java
         String space = " ";
@@ -119,7 +125,7 @@
         ****
         *****
     ```
-1. What will be printed as a result of the following code excerpt?
+5. What will be printed as a result of the following code excerpt?
 
     ```java
         int sum = 0;

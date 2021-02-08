@@ -1,19 +1,25 @@
 # AP COMPUTER quiz10
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
 
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 
 1. Choose the best solution to complete the missing code such that the code will implement a binary search to find the variable number in arr.
 
     ```java
-        int number = <some number in arr>;
+        int number = /*some number in arr*/;
         System.out.println (search (arr, 0, arr.length-1, number)) ;
 
         public int search(int [] a,int first, int last, int sought){
             int mid = (first +  last)/2 ;
-            if (<missing code>) {
+            if (/*missing code*/) {
                 last = mid - 1;
                 return search(a, first,last, sought) ;
             }
-            else if(<missingcode>){
+            else if(/*missingcode*/){
                 first = mid + 1;
                 return search (a, first, last, sought); 
             }

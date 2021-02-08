@@ -1,3 +1,11 @@
+# AP COMPUTER quiz3
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
+
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
 1. A programmer has written two different methods for a client program to swap the elements of one array with those of another array.
 
 	```java
@@ -27,7 +35,7 @@
 	
 	(E) Neither method will swap the contents of the two arrays correctly under any condition.
 
-1. Determine output of the following code.
+2. Determine output of the following code.
 
 	```java
 		public static void swap(String s1, String s2) {
@@ -53,7 +61,7 @@
 	(D) LION elephant
 	(E) LION ELEPHANT
 	```
-1. The following pow method was written to return b raised to the xth power where x > 0, but it does not work properly. Choose the changes to the method below to work properly.
+3. The following pow method was written to return b raised to the xth power where x > 0, but it does not work properly. Choose the changes to the method below to work properly.
 
 	```java
 	1	public double pow (double b, int x) 
@@ -61,7 +69,7 @@
 	3		if (x==0) 
 	4			return 0; 
 	5		else
-	6			return b + pow (b, x-1); 
+	6			return b * pow (b, x-1); 
 	7	}
 	```
 	``` No answer is correct
@@ -69,14 +77,14 @@
 	3 	if (x==l) 
 	4		return 1; 
 	(B) Change lines 3 and 4 to: 
-	3 	if (x==l) 
-	4		return b; 
+	3 	if (x==0) 
+	4		return 1; 
 	(C) Change line 6 to: 
-	6 		return b * pow(b, x-1);
+	6 		return b + pow(b, x-1);
 	(D) Both (A) and (C) 
 	(E) Both (B) and (C) 
 	```
-1. What is output given the following code excerpt? 
+4. What is output given the following code excerpt? 
 
 	```java
 		public static int f (int n) {
@@ -95,7 +103,7 @@
 	(D) 26 
 	(E) A run-time error 
 	```
-1. Which of the following class declarations would cause a compile-time error? Assume the rest of the code compiles as intended. 
+5. Which of the following class declarations would cause a compile-time error? Assume the rest of the code compiles as intended. 
 
 	```java
 	(A) public class Calculus

@@ -1,33 +1,50 @@
 # AP COMPUTER quiz9
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
 
-1. A client program wishes to compare the two xylophone objects as follows: 
+Average: 2.25 for each question.
 
-    ```java
-    Xylophone x2 = new Xylophone ("xylophone", 80, 32) ; 
-    Xylophone X3 = new Xylophone ("xylophone", 65,	32);
-    ```
-    The two objects should be considered “equally heavy’' if and only if they have the same weight. Which of the following code excerpts accomplishes that task? 
-    ```java
-    (A) if (x2.weight==x3.weight)
-            System.out.println ("equally heavy") ; 
-        else
-            System.out.println ("not equally heavy");
-    (B) if (x2.weight()==x3.weight())
-            System.out.println ("equally heavy") ; 
-        else
-            System.out.println ("not equally heavy");
-    (C) if (x2.getWeight()==x3.getWeight())
-            System.out.println ("equally heavy") ; 
-        else
-            System.out.println ("not equally heavy");
-    (D) if (x2.weight.equals(x3.weight)
-            System.out.println ("equally heavy") ; 
-        else
-            System.out.println ("not equally heavy");
-    ```
-    (E) The weight of each object cannot be compared.
+If you finish 5 questions within 11 minutes, that's good enough. 
 
-    Questions 36-37 refer to the following classes. 
+---
+
+1. Given nums—a rectangular, two-dimensional array of integers, choose the code to print the entire array.
+
+	```java
+		// I.
+		for (int r = 0; r < nums.length; r++) {
+			for (int c = 0; c < nums[0].length; c++) {
+				System.out.print(nums[r][c] +" ");
+			}
+			System.out.print("\n") ;
+		}
+
+		System.out.println();
+		// II.
+		for (int[] row : nums) {
+			for (int col: row) {
+				System.out.print(col +" ");
+			}
+			System.out.print("") ;
+		}
+		System.out.println();
+		
+		// III.
+		for (int r = 0; r < nums[0].length; r++) {
+			for (int c = 0; c < nums.length; c++) {
+				System.out.print(nums[r][c] +" ");
+			}
+			System.out.print("\n") ;
+		}
+	```
+	```
+	(A) I only 
+	(B) I and II only
+	(C) I and III only 
+	(D)II and III only 
+	(E) I, II, and III 
+	```
+
+    Questions 2-3 refer to the following classes. 
 
     ```java
     public class Dog {
@@ -99,18 +116,18 @@
     3		if (x==0) 
     4			return 0; 
     5		else
-    6			return b + pow (b, x-1); 
+    6			return b * pow (b, x-1); 
     7	}
     ```
     ``` No answer is correct
     (A) Change lines 3 and 4 to: 
-    3 	if (x=-l) 
+    3 	if (x==l) 
     4		return 1; 
     (B) Change lines 3 and 4 to: 
-    3 	if (x=-l) 
-    4		return b; 
+    3 	if (x==0) 
+    4		return 1; 
     (C) Change line 6 to: 
-    6 		return b * mystery(b, x-1);
+    6 		return b + pow(b, x-1);
     (D) Both (A) and (C) 
     (E) Both (B) and (C) 
     ```

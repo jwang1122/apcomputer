@@ -26,7 +26,7 @@
     1E, 2D, 3E, 4C, 5E
     [Quiz1 Questions](quiz1.md)
 * quiz2
-    1C, 2A, 3E, 4D, 5D
+    1C, 2A, 3B, 4D, 5D
     [Quiz2 Questions](quiz2.md)
 * quiz3
     1C, 2D, 3A, 4C, 5B
@@ -44,10 +44,10 @@
     1A, 2C, 3E, 4A, 5D
     [Quiz7 Questions](quiz7.md)
 * quiz8
-    1B, 2D, 3B, 4B, 5D
+    1B, 2D, 3B, 4D, 5C
     [Quiz8 Questions](quiz8.md)
 * quiz9
-    1C, 2D, 3E, 4E, 5D
+    1B, 2D, 3E, 4B, 5D
     [Quiz9 Questions](quiz9.md)
 * quiz10
     1A, 2C, 3B, 4A, 5C

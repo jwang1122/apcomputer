@@ -1,6 +1,13 @@
 # AP COMPUTER quiz8
+Time&#x2501;1 hour and 30 minutes for total 40 questions.
 
-Question 29-30 refer to the following code expcerpt.
+Average: 2.25 for each question.
+
+If you finish 5 questions within 11 minutes, that's good enough. 
+
+---
+
+Question 1-2 refer to the following code expcerpt.
 
 	```JAVA
 	2	ArrayList<Integer> alist5 = new ArrayList<Integer>();
@@ -41,43 +48,7 @@ Question 29-30 refer to the following code expcerpt.
     (D) [2, 6, 8, 21, 1] 
     (E) [1, 2, 6, 8, 21] 
     ```
-3. Given nums—a rectangular, two-dimensional array of integers, choose the code to print the entire array.
-
-	```java
-		// I.
-		for (int r = 0; r < nums.length; r++) {
-			for (int c = 0; c < nums[0].length; c++) {
-				System.out.print(nums[r][c] +" ");
-			}
-			System.out.print("\n") ;
-		}
-
-		System.out.println();
-		// II.
-		for (int[] row : nums) {
-			for (int col: row) {
-				System.out.print(col +" ");
-			}
-			System.out.print("") ;
-		}
-		System.out.println();
-		
-		// III.
-		for (int r = 0; r < nums[0].length; r++) {
-			for (int c = 0; c < nums.length; c++) {
-				System.out.print(nums[r][c] +" ");
-			}
-			System.out.print("\n") ;
-		}
-	```
-	```
-	(A) I only 
-	(B) I and II only
-	(C) I and III only 
-	(D)II and III only 
-	(E) I, II, and III 
-	```
-	Questions 4-5 refer to the Percussion and Xylophone class below. 
+	Questions 3-5 refer to the Percussion and Xylophone class below. 
 	```java
 	public class Percussion {
 		private String name;
@@ -111,12 +82,12 @@ Question 29-30 refer to the following code expcerpt.
 			//<missing code>
 		}
 		
-		public int getNumberOfKeys() {
+		public int getNumKeys() {
 			return numberOfKeys;
 		}
 	}
 	```
-4. Which of the following is the most appropriate replacement for <missing code> in the Xylophone constructor?
+3. Which of the following is the most appropriate replacement for <missing code> in the Xylophone constructor?
 
 	```java
 	(A) this.numberOfKeys = numberOfKeys;
@@ -128,7 +99,7 @@ Question 29-30 refer to the following code expcerpt.
 	(D) this.numberOfKeys = numberOfKeys;
 	(E) numberOfKeys = this.numberOfKeys;
 	```
-5. Assuming the above classes compile correctly, which of the following will not compile within a client program?
+4. Assuming the above classes compile correctly, which of the following will not compile within a client program?
 
 	```java
 	(A) Xylophone [] xylophones = new Xylophone [5]; 
@@ -139,3 +110,29 @@ Question 29-30 refer to the following code expcerpt.
 		System.out.println(x2.numberOfKeys); 
 	(E) Drums[] drums;
 	```
+5. A client program wishes to compare the two xylophone objects as follows: 
+
+    ```java
+    Xylophone x2 = new Xylophone ("xylophone", 80, 32) ; 
+    Xylophone x3 = new Xylophone ("xylophone", 65,	32);
+    ```
+    The two objects should be considered “equally heavy’' if and only if they have the same weight. Which of the following code excerpts accomplishes that task? 
+    ```java
+    (A) if (x2.weight==x3.weight)
+            System.out.println ("equally heavy") ; 
+        else
+            System.out.println ("not equally heavy");
+    (B) if (x2.weight()==x3.weight())
+            System.out.println ("equally heavy") ; 
+        else
+            System.out.println ("not equally heavy");
+    (C) if (x2.getWeight()==x3.getWeight())
+            System.out.println ("equally heavy") ; 
+        else
+            System.out.println ("not equally heavy");
+    (D) if (x2.weight.equals(x3.weight))
+            System.out.println ("equally heavy") ; 
+        else
+            System.out.println ("not equally heavy");
+    ```
+    (E) The weight of each object cannot be compared.

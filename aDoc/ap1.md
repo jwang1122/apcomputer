@@ -22,6 +22,8 @@
     - [Section II](#section-ii)
   - [Questions](#questions)
   - [Answers](#answers)
+  - [Section II](#section-ii-1)
+  - [Quizes](#quizes)
   - [Referencea](#referencea)
 
 ## Training NOT Learning
@@ -295,6 +297,7 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 [Table of Contents](#table-of-contents)
 
 ## Answers
+```
 1E 2D 3D 4A 5C 
 6E 7B 8A 9D 10C 
 11C 12D 13A 14C 15B 
@@ -303,5 +306,25 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 26C 27E 28A 29B 30D 
 31D 32B 33B 34S 35C 
 36D 37E 38E 39D 40A 
+```
+## Section II
+* ~~question1~~
+* ~~question2~~
+* question3
+* question4
+  
+## Quizes
+* ~~quiz1.md~~
+* ~~quiz2.md~~
+* ~~quiz3.md~~
+* ~~quiz4.md~~
+* quiz5.md
+* quiz6.md
+* quiz7.md
+* quiz8.md
+* quiz9.md
+* quiz10.md
+  
+
 ## Referencea
 [MCQ for Java](https://www.javatpoint.com/java-mcq)

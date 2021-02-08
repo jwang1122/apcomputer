@@ -1,4 +1,6 @@
 # AP Computer Sicence Section I
+Time&#x2501;1 hour and 30 minutes 
+Average: 2.25 for each question.
 
 1. Evaluate the following expression: 4 + 6 % 12/4? (page 12)
 ```
@@ -583,7 +585,6 @@ What is the output after the following client code is executed?
 	
 	for(int element: arr3)
 		System.out.print(element + " ");
-}
 ```
 ```
 (A) 1, 2, 3, 4, 5, 6
@@ -866,7 +867,7 @@ public class Xylophone extends Percussion{
 		//<missing code>
 	}
 	
-	public int getNumberOfKeys() {
+	public int getNumKeys() {
 		return numberOfKeys;
 	}
 }
@@ -895,7 +896,7 @@ public class Xylophone extends Percussion{
 35. A client program wishes to compare the two xylophone objects as follows: 
 ```java
 Xylophone x2 = new Xylophone ("xylophone", 80, 32) ; 
-Xylophone X3 = new Xylophone ("xylophone", 65,	32);
+Xylophone x3 = new Xylophone ("xylophone", 65,	32);
 ```
 The two objects should be considered “equally heavy’' if and only if they have the same weight. Which of the following code excerpts accomplishes that task? 
 ```java
@@ -911,7 +912,7 @@ The two objects should be considered “equally heavy’' if and only if they ha
 		System.out.println ("equally heavy") ; 
 	else
 		System.out.println ("not equally heavy");
-(D) if (x2.weight.equals(x3.weight)
+(D) if (x2.weight.equals(x3.weight))
 		System.out.println ("equally heavy") ; 
 	else
 		System.out.println ("not equally heavy");
@@ -992,10 +993,10 @@ public class Retriever extends SportingDog {
 ```
 ``` No answer is correct
 (A) Change lines 3 and 4 to: 
-3 	if (x=-l) 
+3 	if (x==l) 
 4		return 1; 
 (B) Change lines 3 and 4 to: 
-3 	if (x=-l) 
+3 	if (x==1) 
 4		return b; 
 (C) Change line 6 to: 
 6 		return b * mystery(b, x-1);
