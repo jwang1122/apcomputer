@@ -23,34 +23,53 @@
   
 ## Answers for Quizes
 * quiz1
+ 
     1E, 2D, 3E, 4C, 5E
     [Quiz1 Questions](quiz1.md)
 * quiz2
+ 
     1C, 2A, 3B, 4D, 5D
     [Quiz2 Questions](quiz2.md)
 * quiz3
+ 
     1C, 2D, 3A, 4C, 5B
     [Quiz3 Questions](quiz3.md)
 * quiz4
+ 
     1B, 2D, 3C, 4B, 5D
     [Quiz4 Questions](quiz4.md)
 * quiz5
+ 
     1D, 2B, 3E, 4D, 5D
     [Quiz5 Questions](quiz5.md)
 * quiz6
+ 
     1C, 2E, 3E, 4B, 5D
     [Quiz6 Questions](quiz6.md)
 * quiz7
+ 
     1A, 2C, 3E, 4A, 5D
     [Quiz7 Questions](quiz7.md)
 * quiz8
+ 
     1B, 2D, 3B, 4D, 5C
     [Quiz8 Questions](quiz8.md)
 * quiz9
+ 
     1B, 2D, 3E, 4B, 5D
     [Quiz9 Questions](quiz9.md)
 * quiz10
+ 
     1A, 2C, 3B, 4A, 5C
     [Quiz10 Questions](quiz10.md)
 
-    
+ * quiz11
+ 
+    1C, 2E, 3E, 4C, 5B
+    [Quiz11 Questions](quiz11.md)
+
+* quiz12
+ 
+    1E, 2B, 3
+    [Quiz11 Questions](quiz11.md)
+
