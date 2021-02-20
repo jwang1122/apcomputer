@@ -7,8 +7,17 @@ Number of Questions&#x2501;4
 percent of Total Grade&#x2501;50% 
 
 Directions: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA™ 
+## Table of Contents
+- [AP Computer Sicence Section II](#ap-computer-sicence-section-ii)
+	- [Table of Contents](#table-of-contents)
+	- [FREE-RESPONSE QUESTIONS](#free-response-questions)
+		- [Question 1](#question-1)
+		- [Question 2](#question-2)
+		- [Question 3](#question-3)
+		- [Question 4](#question-4)
 
 ## FREE-RESPONSE QUESTIONS
+### Question 1
 1. This question involves the implementation of a simulation rolling two dice. A client program will specify the number of rolls of the sample size and the number of faces on each of the two dice. A method will return the percentage of times the roll results in a double. Double in this case means when two dice match or have the same value (not a data type). 
 
 You will write two of the methods in this class. 
@@ -133,6 +142,10 @@ public class DiceSimulation {
 }
 
 ```
+
+[Table of Contents](#table-of-contents)
+
+### Question 2
 2. This question involves the implementation of a calorie counter system that is represented by the CalorietCount class. A CalorieOunt object is created with 5 parameters:
 * Daily Calories limit—the recommended number of calories per day
 * paily Calories intake—the number of calories a person has eaten in a day 
@@ -157,6 +170,10 @@ onTrack() |False |Returns true if calorie intake does not exceed calorie limit
 getProteinPercentage() |.24 | Multiplies grams of protein by 4 then divides by calorie intak 
 
 ---
+
+[Table of Contents](#table-of-contents)
+
+### Question 3
 Write the entire CalorieCount class. Your implementation must meet all specifications and conform to all examples. 
 
 3. This question involves the implementation of a Travel Planner system that is represented by the Travelplan and Tour classes. A client will create Tour objects that will represent tours or activities of interest. Each tour object is made up of an activity date, start time, end time, and name of the activity- The client will also create a Travelplan object comprised of a destinatior and an arraylist of Tours. You will write three methods of the TravelPlan class. 
@@ -232,7 +249,8 @@ p1.addTour(t4) |true|Checks for conflicts in plans, since there are none, adds t
 
 (a) Write the TravelPlan constructor. 
 
-**Class information for this question **
+**Class information for this question**
+
 ```java
 public class Tour 
 private int act Date
@@ -259,6 +277,9 @@ public boolean addTour(Tourt t)
 
 (c) Write the TravelPlan addTour method.
 
+[Table of Contents](#table-of-contents)
+
+### Question 4
 4. This question involves the implementation of a class SeatingChart. A seating chart object will represent a two-dimensional String array. The number of rows and columns for the array will be sent as parameters, as well as a one-dimensional arry of type Name. You may assume there will be enough rows and columns to accommodate all the entries from the array.
 
 The declaration of the Name class is shown.
@@ -344,6 +365,10 @@ public class SeatingChart
 ```
 
 (b) Write the SeatingChart toString() method. 
+
+[Table of Contents](#table-of-contents)
+
+---
 
 <div>
 <center><h2>STOP</h2></center> 
