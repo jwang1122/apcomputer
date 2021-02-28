@@ -11,4 +11,11 @@
 |2021/02/06|Nick    | quiz3.pdf        |10"10       |1
 |2021/02/06|Angela  | quiz4.pdf        |10"22       |3
 |2021/02/06|Nick    | quiz4.pdf        |10"47       |2
+|2021/02/20|Nick    | secion2-question3|20"         |80%
+|2021/02/20|Nick    | quiz5.md         |6"23        |2
+|2021/02/20|Nick    | quiz6.md         |19"43       |4
+|2021/02/06|Angela  | quiz6.md         |10"42       |3
+|2021/02/20|Nick    | quiz6.md         |10"02       |2
+|2021/02/06|Angela  | secion2-question4|>30"        |
+|2021/02/20|Nick    | secion2-question4|>30"        |
 

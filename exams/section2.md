@@ -176,7 +176,7 @@ getProteinPercentage() |.24 | Multiplies grams of protein by 4 then divides by c
 ### Question 3
 Write the entire CalorieCount class. Your implementation must meet all specifications and conform to all examples. 
 
-3. This question involves the implementation of a Travel Planner system that is represented by the Travelplan and Tour classes. A client will create Tour objects that will represent tours or activities of interest. Each tour object is made up of an activity date, start time, end time, and name of the activity- The client will also create a Travelplan object comprised of a destinatior and an arraylist of Tours. You will write three methods of the TravelPlan class. 
+3. This question involves the implementation of a Travel Planner system that is represented by the Travelplan and Tour classes. A client will create Tour objects that will represent tours or activities of interest. Each tour object is made up of an activity date, start time, end time, and name of the activity- The client will also create a Travelplan object comprised of a destination and an arraylist of Tours. You will write three methods of the TravelPlan class. 
 
 A partial declaration of the Tour class is shown below. 
 ```java

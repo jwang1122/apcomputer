@@ -1,5 +1,5 @@
 # AP COMPUTER quiz5
-Time&#x2501;1 hour and 30 minutes for total 40 questions.
+Time -- 1 hour and 30 minutes for total 40 questions.
 
 Average: 2.25 for each question.
 
