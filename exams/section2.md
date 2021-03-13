@@ -102,7 +102,7 @@ public int roll ()
 Class information for this question 
 
 ```java
-public class Dicesimulation 
+public class DiceSimulation 
 private int numSamplesize;
 private int numFaces;  
 

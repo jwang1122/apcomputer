@@ -1,6 +1,6 @@
 	```
-	(A) I only
-	(B) II only
+	(A) 
+	(B) 
 	(C) 
 	(D) 
 	(E) 
@@ -12,5 +12,6 @@
     I and III only
     II and III only
     I, II and III
+    None
 	```
 1

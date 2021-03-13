@@ -70,6 +70,20 @@
 
 * quiz12
  
-    1E, 2B, 3
-    [Quiz11 Questions](quiz11.md)
+    1E, 2B, 3E, 4B, 5E
+    [Quiz11 Questions](quiz12.md)
 
+* quiz13
+ 
+    1E, 2E, 3A, 4A, 5E
+    [Quiz11 Questions](quiz13.md)
+
+* quiz14
+ 
+    1D, 2C, 3D, 4C, 5C
+    [Quiz11 Questions](quiz14.md)
+
+* quiz15
+ 
+    1D, 2B, 3A, 4B, 5E
+    [Quiz11 Questions](quiz15.md)

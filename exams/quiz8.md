@@ -19,7 +19,7 @@ Question 1-2 refer to the following code expcerpt.
 	8	for (int k = 0; k < alist5.size() - 1; k++) 
 	9	{
 	10		for (int i = 0; i < alist5.size() - 2; i++) 
-	11	{
+	11		{
 	12			if (alist5.get(i) > alist5.get(i + 1)) 
 	13			{
 	14				int hold = alist5.remove(i);

@@ -14,8 +14,14 @@
 |2021/02/20|Nick    | secion2-question3|20"         |80%
 |2021/02/20|Nick    | quiz5.md         |6"23        |2
 |2021/02/20|Nick    | quiz6.md         |19"43       |4
-|2021/02/06|Angela  | quiz6.md         |10"42       |3
-|2021/02/20|Nick    | quiz6.md         |10"02       |2
-|2021/02/06|Angela  | secion2-question4|>30"        |
-|2021/02/20|Nick    | secion2-question4|>30"        |
+|2021/02/27|Angela  | quiz6.md         |10"42       |3
+|2021/02/27|Nick    | quiz6.md         |10"02       |2
+|2021/02/27|Angela  | secion2-question4|>30"        |
+|2021/02/27|Nick    | secion2-question4|>30"        |
+|2021/03/06|Angela  | secion2-question1，2|38"40    |1OK,2unfinished
+|2021/03/06|Nick    | secion2-question1，2|35"11    |1,2 OK.
+|2021/03/06|Angela  | quiz7.md         |11"38       |OK
+|2021/03/06|Nick    | quiz7.md         |10"29       |3B by accident
+|2021/03/06|Angela  | quiz8.md         |8"56        |2E,4C
+|2021/03/06|Nick    | quiz8.md         |12"29       |2E,4E
 

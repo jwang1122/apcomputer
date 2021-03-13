@@ -36,6 +36,7 @@ Page | Question | Error |Correction |Description
 147|1-(E)|for (int x=1; x<=5;x++|for (int x=1; x<=5;x++)|miss ) ant end
 149|4|... !(a | | b);|... !(a || b);|the code will not compile
 150|7|System.out.println(x)|System.out.println(x);|miss ; at end
+175|6|(C) int oldVal = value| (C) int oldVal = value; |miss ; at end
 
 
 

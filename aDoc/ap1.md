@@ -318,12 +318,16 @@ Returns a double value with a positive sign, greater than or equal to 0.0 and le
 * ~~quiz2.md~~
 * ~~quiz3.md~~
 * ~~quiz4.md~~
-* quiz5.md
-* quiz6.md
+* ~~quiz5.md~~
+* ~~quiz6.md~~
 * quiz7.md
 * quiz8.md
 * quiz9.md
 * quiz10.md
+* quiz11.md
+* quiz12.md
+* quiz13.md
+* quiz14.md
   
 
 ## Referencea
