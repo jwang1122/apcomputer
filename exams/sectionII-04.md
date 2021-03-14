@@ -1,4 +1,4 @@
-# SectionII 0-4 (AP Edition 6)
+# SectionII 0-4 (AP 2021)
 
 4. This question involves the implementation of a class SeatingChart. A seating chart object will represent a two-dimensional String array. The number of rows and columns for the array will be sent as parameters, as well as a one-dimensional arry of type Name. You may assume there will be enough rows and columns to accommodate all the entries from the array.
 

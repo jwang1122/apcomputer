@@ -25,5 +25,9 @@
 |2021/03/06|Angela  | quiz8.md         |8"56        |2E,4C
 |2021/03/06|Nick    | quiz8.md         |12"29       |2E,4E
 |2021/03/06|Angela  | secion2-question4|            |
-|2021/03/06|Nick    | secion2-question4|            |
+|2021/03/06|Nick    | secion2-question4|26"52       |50%
+|2021/03/13|Angela  | quiz9.md         |        |absent
+|2021/03/13|Nick    | quiz9.md         |9"30        |1E
+|2021/03/13|Angela  | quiz10.md        |        |absent
+|2021/03/13|Nick    | quiz10.md        |9"45        |2B,3A,5B
 
