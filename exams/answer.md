@@ -87,3 +87,19 @@
  
     1D, 2B, 3A, 4B, 5E
     [Quiz11 Questions](quiz15.md)
+
+* quiz16
+ 
+    1A, 2A, 3B, 4C, 5B
+    [Quiz11 Questions](quiz16.md)
+
+* quiz17
+ 
+    1A, 2B, 3E, 4C, 5A
+    [Quiz11 Questions](quiz17.md)
+    
+* quiz18
+ 
+    1C , 2E, 3A, 4E, 5B
+    [Quiz11 Questions](quiz18.md)
+    
