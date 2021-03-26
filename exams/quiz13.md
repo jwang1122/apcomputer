@@ -17,7 +17,7 @@ public class Number
         if(someNum>= 0)
             value = someNum; 
     } 
-    public int changeVal (int newVal)
+    public int changeValue (int newVal)
     {
         /* missine code */ 
     } 
@@ -28,19 +28,17 @@ public class Number
     }
 }
 
-public class NumChanger 
-{
-    public void change()
-    {
-        Number n1 = new Number(5) ;
-        Number n2 = new Number(5) ;
-        int sum1 - nl.getvalue () + n2.getvalue ();
-        int oldn1Val= n1.changeValue (10 );
-        n2=n1;
-        int sum2 = nl.getvalue () + n2.getvalue ();
-        System.out.print (sum1+ " " + sum2) ; 
-    }
-    //other methods not shown 
+class NumChanger {
+	public void change() {
+		Number n1 = new Number(5);
+		Number n2 = new Number(5);
+		int sum1 = n1.getValue() + n2.getValue();
+		int oldn1Val = n1.changeValue(10);
+		n2 = n1;
+		int sum2 = n1.getValue() + n2.getValue();
+		System.out.print(sum1 + " " + sum2);
+	}
+	// other methods not shown
 }
 ```
 1. The change Vai method in Number should reassign value to be the value taken as the parameter and return the original value. Which of the following code segments should be used to replace / * missing code * / so that changeVal will work as intended? 
@@ -79,7 +77,7 @@ public void match (String s, String t)
     if( /* missing code */)
         System.out.println ("Strings match."); 
     else
-        System.out.println("Strings do not match.")
+        System.out.println("Strings do not match.");
 }
 ```  
 Which of the following statements could replace / * missing code */to allow the method to work as intended? 
@@ -109,7 +107,7 @@ III. s == t
 
 (E) Since connector is declared static, all of the methods in*ComputerMouse must also be declared static. 
 
-5. A development team is building an online bookstore that customers can use to order books. Information about inventory and customer orders is kept in a database. Code must be developed that will store and retrieve data frcmtkie database. The development team decides to put the database code in separate classes from the rest of the program. Which of the following would be an advantage of this plan? 
+5. A development team is building an online bookstore that customers can use to order books. Information about inventory and customer orders is kept in a database. Code must be developed that will store and retrieve data from the database. The development team decides to put the database code in separate classes from the rest of the program. Which of the following would be an advantage of this plan? 
 
 I. The database access code could be reused in other applications that also need to access the database. 
 II. The database access code can be tested independently- It will be possible to test the database access code before the interface is developed. 

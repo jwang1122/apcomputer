@@ -100,6 +100,16 @@
     
 * quiz18
  
-    1C , 2E, 3A, 4E, 5B
+    1C, 2E, 3A, 4E, 5B
     [Quiz11 Questions](quiz18.md)
     
+* quiz19
+ 
+    1E, 2D, 3E, 4A, 5C
+    [Quiz11 Questions](quiz19.md)
+
+* quiz20
+ 
+    1D, 2B, 3A, 4A, 5A
+    [Quiz11 Questions](quiz20.md)
+
