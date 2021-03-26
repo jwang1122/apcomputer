@@ -10,7 +10,7 @@
 (E) false 
 ```
 
-2. Consider a ciown class that has a default constructor. Suppose a list Arraylist<Clown> list is initialized. Which of the following will **not** cause an IndexOutOfBoundsException to be thrown? 
+2. Consider a Clown class that has a default constructor. Suppose a list Arraylist<Clown> list is initialized. Which of the following will **not** cause an IndexOutOfBoundsException to be thrown? 
 
 ```java
 (A) for (int i = 0; i <= list.size(); i++)
@@ -30,7 +30,7 @@ public class Point
     private int yCoord; 
 
     //constructor 
-    public Point (intx, int y)
+    public Point (int x, int y)
     {
         ...
     }
@@ -60,8 +60,8 @@ public abstract class Quadrilateral
     public String getLabels () 
     { return myLabels; }
 
-    public abstract int perimeter () 
-    public abstract int area()
+    public abstract int perimeter (); 
+    public abstract int area();
 }
 
 public class Rectangle extends Quadrilateral 
@@ -148,7 +148,8 @@ Refer to the following method, writ eAreas:
 public static void writeAreas(List<Quadrilateral> quadList)  
 {
     for (Quadrilateral quad : quadList) 
-        Astern, out. print In ("Area of " + quad.getLabels() + " is "+ quad.area()); 
+	        System.out.println ("Area of " + quad.getLabels() + " is "+ quad.area()); 
+
 }
 ```
 

@@ -134,11 +134,11 @@ If you finish 5 questions within 11 minutes, that's good enough.
 5. What is output given the following code excerpt? 
 
     ```java
-        public static int f (int n) {
+        public static int f(int n) {
             if (n==0)
                 return 0;
             else 
-                return f(n/10)+ n % 10; 
+                return f(n/10) + n % 10; 
                 
         }
         System.out.println(f(8765));

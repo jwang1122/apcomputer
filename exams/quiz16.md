@@ -8,7 +8,7 @@ public class Tester
     private int[] testArray = {3, 4, 5};
 
     // Add 1 to n. 
-    public void increment (int x) 
+    public void increment (int n) 
     { n++; }
 
     public void firstTestMethod()
