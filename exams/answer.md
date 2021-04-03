@@ -71,45 +71,45 @@
 * quiz12
  
     1E, 2B, 3E, 4B, 5E
-    [Quiz11 Questions](quiz12.md)
+    [Quiz12 Questions](quiz12.md)
 
 * quiz13
  
     1E, 2E, 3A, 4A, 5E
-    [Quiz11 Questions](quiz13.md)
+    [Quiz13 Questions](quiz13.md)
 
 * quiz14
  
     1D, 2C, 3D, 4C, 5C
-    [Quiz11 Questions](quiz14.md)
+    [Quiz14 Questions](quiz14.md)
 
 * quiz15
  
     1D, 2B, 3A, 4B, 5E
-    [Quiz11 Questions](quiz15.md)
+    [Quiz15 Questions](quiz15.md)
 
 * quiz16
  
     1A, 2A, 3B, 4C, 5B
-    [Quiz11 Questions](quiz16.md)
+    [Quiz16 Questions](quiz16.md)
 
 * quiz17
  
     1A, 2B, 3E, 4C, 5A
-    [Quiz11 Questions](quiz17.md)
+    [Quiz17 Questions](quiz17.md)
     
 * quiz18
  
     1C, 2E, 3A, 4E, 5B
-    [Quiz11 Questions](quiz18.md)
+    [Quiz18 Questions](quiz18.md)
     
 * quiz19
  
     1E, 2D, 3E, 4A, 5C
-    [Quiz11 Questions](quiz19.md)
+    [Quiz19 Questions](quiz19.md)
 
 * quiz20
  
     1D, 2B, 3A, 4A, 5A
-    [Quiz11 Questions](quiz20.md)
+    [Quiz20 Questions](quiz20.md)
 
