@@ -1,3 +1,5 @@
+# AP Computer Science A, Section II
+
 3. In this question you will implement two methods for a class Tournament that keeps track of the players who have registered for a tournament. The Tournament class uses the Player class shown below. A Player has a name and player number specified when a player is constructed. 
 
 ```java
@@ -20,9 +22,9 @@ public class Tournament
 {
     /** The list of slots in the tournament. 
     * Each element corresponds to a slot in the tournament. 
-    * If slots [i] is null, the slot is not yet taken; 
+    * If slots[i] is null, the slot is not yet taken; 
     * otherwise it contains a reference to a Player. 
-    * For example, slots [i] .getPlayerNumber () returns i. */ 
+    * For example, slots[i].getPlayerNumber() returns i. */ 
     private Player[] slots; 
 
     /** The list of names of players who wish to participate in 

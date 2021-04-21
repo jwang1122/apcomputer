@@ -41,6 +41,13 @@
 |2021/04/03|Angela  | sectionII-1      |23"17       |100%
 |2021/04/03|Nick    | quiz12.md        |12"33       |3D,5D
 |2021/04/03|Angela  | quiz12.md        |9"04        |2B,3C,5A
-|2021/04/03|Nick    | quiz13.md        |            |
-|2021/04/03|Angela  | quiz13.md        |            |
+|2021/04/03|Nick    | quiz13.md        |14"43       |2D,3C,4C,5D
+|2021/04/03|Angela  | quiz13.md        |16"16       |2D,5D
+|2021/04/10|Nick    | quiz1.md         |7"19        |1A,4E
+|2021/04/10|Angela  | quiz1.md         |4"27        |100%
+|2021/04/10|Nick    | sectionII-2.md   |28"13       |
+|2021/04/10|Angela  | sectionII-2.md   |27"36       |70%
+|2021/04/17|Nick    |    |      |
+|2021/04/17|Angela  |quiz12.md         |5"23        |5A
+|2021/04/17|Angela  |quiz3.md          |5"23        |5A
 

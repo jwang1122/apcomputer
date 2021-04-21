@@ -1,6 +1,10 @@
+# AP Computer Science A, Section II
+
+[GridWorld Case Study](https://apcentral.collegeboard.org/courses/ap-computer-science-a/classroom-resources/gridworld-case-study)
+
 4. This question involves reasoning about the code from the GridWorld Case Study A Quick Reference to the case study is provided as part of this exam. 
 
-Consider defining a new kind of ChameleonCritter, a HungryChameleon, that attempts to eat a Bug when it acts. If it succeeds in eating a bug, a HungryChameleon does not change color. If it fails to eat, then it changes color in the same way a ChameleonCritter does. After eating or changing color, a Hungrycname moves like a ChameleonCritter. Here is a partial definition of the class HungryChameleon. 
+Consider defining a new kind of ChameleonCritter, a HungryChameleon, that attempts to eat a Bug when it acts. If it succeeds in eating a bug, a HungryChameleon does not change color. If it fails to eat, then it changes color in the same way a ChameleonCritter does. After eating or changing color, a HungryChameleon moves like a ChameleonCritter. Here is a partial definition of the class HungryChameleon. 
 
 ```java
 /**
@@ -8,7 +12,7 @@ Consider defining a new kind of ChameleonCritter, a HungryChameleon, that attemp
 * otherwise it takes on the color of neighboring actors as it 
 * moves through the grid. 
 */
-public class Hungry Channel eon extends ChameleonCritter
+public class HungryChameleon extends ChameleonCritter
 {
     /**
     * Gets a list of adjacent bugs. 
@@ -38,8 +42,7 @@ public class Hungry Channel eon extends ChameleonCritter
 }
 ```
 
-(a) Write the private HungryChameleon method getBugs. This method should
-return a list of adjacent neighboring actors that are bugs. 
+(a) Write the private HungryChameleon method getBugs. This method should return a list of adjacent neighboring actors that are bugs. 
 
 Complete method getBugs below. 
 
@@ -78,3 +81,12 @@ Complete method processActors below.
  */
  public void processActors(Arraylist<Actor> actors)
 ```
+
+![GridWorld Case](../images/GridWorld.png)
+
+Before you starting code your code,
+
+1. Determine which method is the very first application entry point;
+2. Focus on the argument list and try to prepare for them;
+3. Find relationship between all methods, who cal who? what to do?
+4. Try to add 3 comments line in main to build calling structure.
