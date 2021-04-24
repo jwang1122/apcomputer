@@ -1,88 +1,92 @@
-# SectionII 0-4 (AP 2021)
+# AP Computer Science A, Section II
 
-4. This question involves the implementation of a class SeatingChart. A seating chart object will represent a two-dimensional String array. The number of rows and columns for the array will be sent as parameters, as well as a one-dimensional arry of type Name. You may assume there will be enough rows and columns to accommodate all the entries from the array.
+[GridWorld Case Study](https://apcentral.collegeboard.org/courses/ap-computer-science-a/classroom-resources/gridworld-case-study)
 
-The declaration of the Name class is shown.
+4. This question involves reasoning about the code from the GridWorld Case Study A Quick Reference to the case study is provided as part of this exam. 
+
+Consider defining a new kind of ChameleonCritter, a HungryChameleon, that attempts to eat a Bug when it acts. If it succeeds in eating a bug, a HungryChameleon does not change color. If it fails to eat, then it changes color in the same way a ChameleonCritter does. After eating or changing color, a HungryChameleon moves like a ChameleonCritter. Here is a partial definition of the class HungryChameleon. 
+
 ```java
-public class Name {
-	private String lastName; 
-	private String firstName; 
-	
-	Name (String lName, String fName) {< implementation not shown>}
-	public String getLastName(){return lastName; }
-	public String getFirstName(){ return firstName; } 
+/**
+* A Hungry Chameleon eats neighboring bugs if there are any; 
+* otherwise it takes on the color of neighboring actors as it 
+* moves through the grid. 
+*/
+public class HungryChameleon extends ChameleonCritter
+{
+    /**
+    * Gets a list of adjacent bugs. 
+    * @param actors the list of all adjacent neighbors 
+    * @return a list of adjacent bugs 
+    */
+    private ArrayList<Bug> getBugs (ArrayList<Actor> actors)
+    { /* to be implemented in part (a) */ } 
+
+    /**
+    * Randomly "eats" one of the bugs in the list of bugs
+    * Precondition: bugs.size() > 0. 
+    * @param bugs the list of adjacent bugs 
+    */
+    private void eatBug(ArrayList<Bug> bugs)
+    { /* to be implemented in part (b) */ } 
+
+    /**
+    * Gets a list of adjacent neighboring bugs and eats one.
+    * If there are no bugs to eat, the HungryChame 1 eon takes
+    * on the color of a neighboring actor. 
+    * @param actors the list of all adjacent neighbors 
+    */
+    public void processActors(ArrayList<Actor> actors)
+    { /* to be implemented in part (c) */ }
+
 }
 ```
-A partial declaration of the Seatingchart class is shown below. 
+
+(a) Write the private HungryChameleon method getBugs. This method should return a list of adjacent neighboring actors that are bugs. 
+
+Complete method getBugs below. 
 
 ```java
-public class SeatingChart {
-	private String[][] chart; 
-	/** Constructs a SeatinqChart having r rows and c columns. All elements contained in the
-	 *  names array should be placed randomly in the chart array using the format: lastName
-	 *  first Name (e-g. Johlie, Angelina). Any locations not used in the chart should be  
-	 *  initialized to the empty string. 
-	 */
-	SeatingChart (Name[] names, int rows, int cols) {
-		/* to be implemented in part (a) */ 
-	}
-	
-	/** Returns a string containing all elements of the chart array in row-major order.
-	 * The method should return 
-	 * a string containing all the elements in the chart array. The method 
-	 * padWithSpaces should be called on each
-	 * element of chart before it is added to the string to ensure each name will be 
-	 * printed with the same
-	 * length. Each row of the chart should be separated by a line break.    
-	 */
-	public String toString() {
-		/* to be implemented in part (b)	*/ 
-	}
-	
-	/** pads a string with spaces to ensure each string is exactly 35 characters long. */ 
-	
-	private String padWithSpaces (String s) {
-		String str = s;
-		for (int a = s.length(); a<35; a++ ) {
-			str += " ";
-		}
-		return str; 
-	}
-}
+/**
+ * Gets a list of adjacent bugs. 
+ * @param actors the list of all adjacent neighbors 
+ * @return a list of adjacent bugs
+*/
+private Arraylist<Bug> getBugs (ArrayList<Actor> actors)
 ```
-The following table contains sample code and the expected results.
 
-Statements and Expressions |Value Returned / Comment 
-|---|---|
-SeatingChart msJones = new SeatingChart(theNames, 4, 3);|| (no value returned) A two dimensional array is initialized with 4 rows and 3 columns. Every element in theNames is placed randomly in chart in the following format: lastname, firstname e.g., Washington, George. Empty string is placed in any unused locations.
-System.out.println(msJones.toString);|Prints the names in chart in row-major order. See example below:
+(b) Write the private HungryChameleon method eatBug. Method eatBug randomly selects a Bug from its bugs parameter and “eats”(i.e., removes) it. 
 
-```
-Miller, Minnie 			Fitzgerald,Fred 			Dade,Ali 
-Indigo, Inde			Banner, BorisBoris 			Lane, Lois
-Titon, Tim				Robilard,Robbie
-Brne, Jane  
-```
-(a) Write the SeatingChart constructor.
-
-**Class information for this question **
+Complete method eatBug below. 
 
 ```java
-public class Name 
-	private String lastName; 
-	private string firstName;
-
-	Name (String lName, String fName) 
-	public String getLastName(){ return lastName; } 
-	public String getFirstName () {return firstName; } 
-
-public class SeatingChart
-	private String[][] chart;
-
-	SeatingChart(Name[] names, int rows, int cols ])
-	public String toString()
-	private String padWithSpaces(String s) 
+/**
+ * Randomly "eats" one of the bugs in the list of bugs. 
+ * precondition: bugs.size() > 0.
+ * @param bugs the list of adjacent bugs 
+ */
+private void eatBug(ArrayList<Bug> bugs) 
 ```
 
-(b) Write the SeatingChart toString() method. 
+(c) Override the processActors method of the ChameleonCritter superclass. A HungryChameleon processes actors by getting a list of neighboring bugs and randomly selecting one to eat. If there are no bugs to eat, the HungryChameleon takes on the color of one of its neighbors, behaving just like a ChameleonCritter. 
 
+Complete method processActors below. 
+
+```java
+/**
+ * Gets a list of adjacent neighboring bugs and eats one. 
+ * If there are no bugs to eat, the HungryChameleon takes 
+ * on the color of a neighboring actor. 
+ * @param actors the list of all adjacent neighbors 
+ */
+ public void processActors(Arraylist<Actor> actors)
+```
+
+![GridWorld Case](../images/GridWorld.png)
+
+Before you starting code your code,
+
+1. Determine which method is the very first application entry point;
+2. Focus on the argument list and try to prepare for them;
+3. Find relationship between all methods, who cal who? what to do?
+4. Try to add 3 comments line in main to build calling structure.

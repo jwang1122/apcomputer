@@ -113,3 +113,14 @@
     1D, 2B, 3A, 4A, 5A
     [Quiz20 Questions](quiz20.md)
 
+* quiz21
+ 
+    1B, 2E, 3E, 4E, 5C
+    [Quiz21 Questions](quiz21.md)
+
+* quiz22
+ 
+    1D, 2B, 3C, 4C, 5B
+    [Quiz21 Questions](quiz21.md)
+
+

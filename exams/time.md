@@ -47,7 +47,7 @@
 |2021/04/10|Angela  | quiz1.md         |4"27        |100%
 |2021/04/10|Nick    | sectionII-2.md   |28"13       |
 |2021/04/10|Angela  | sectionII-2.md   |27"36       |70%
-|2021/04/17|Nick    |    |      |
+|2021/04/17|Nick    |    |      |absent
 |2021/04/17|Angela  |quiz12.md         |5"23        |5A
 |2021/04/17|Angela  |quiz3.md          |5"23        |5A
 
