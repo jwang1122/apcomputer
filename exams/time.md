@@ -50,4 +50,9 @@
 |2021/04/17|Nick    |    |      |absent
 |2021/04/17|Angela  |quiz12.md         |5"23        |5A
 |2021/04/17|Angela  |quiz3.md          |5"23        |5A
+|2021/04/17|Angela  |sectionII-03.md   |>30"        |40%
+|2021/04/24|Nick    |sectionII-04.md   |27"12       |95%
+|2021/04/24|Angela  |sectionII-04.md   |24"21       |60%
+|2021/04/24|Nick    |sectionII-03.md   |16"24       |
+|2021/04/24|Angela  |sectionII-03.md   |17"45       |
 

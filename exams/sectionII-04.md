@@ -2,6 +2,8 @@
 
 [GridWorld Case Study](https://apcentral.collegeboard.org/courses/ap-computer-science-a/classroom-resources/gridworld-case-study)
 
+[Gridword case on YouTube](https://www.youtube.com/watch?v=pF0HFYtbLLI)
+
 4. This question involves reasoning about the code from the GridWorld Case Study A Quick Reference to the case study is provided as part of this exam. 
 
 Consider defining a new kind of ChameleonCritter, a HungryChameleon, that attempts to eat a Bug when it acts. If it succeeds in eating a bug, a HungryChameleon does not change color. If it fails to eat, then it changes color in the same way a ChameleonCritter does. After eating or changing color, a HungryChameleon moves like a ChameleonCritter. Here is a partial definition of the class HungryChameleon. 
