@@ -83,7 +83,7 @@ Complete method requestslot below.
 
 In writing cancelAndReassignSlot you may use any accessible methods in the Player and Tournament classes. Assume that these methods work as specified. 
 
-![SectionII Question3](images/sectionII-3.png)
+![SectionII Question3](images/sectionII-03.png)
 
 
 Complete method cancelAndReassignSlot below. 

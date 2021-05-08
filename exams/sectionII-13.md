@@ -77,13 +77,13 @@ A two-dimensional square array of integers is a Latin square if the following co
 
 The ArrayTester class provides two helper methods: containsDuplicates and hasAllValues. The method containsDuplicates returns true if the given one-dimensional array arr contains any duplicate values and false otherwise. The method hasAllValues returns true if and only if every value in arr1 appears in arr2. You do **not** need to write the code for these methods. 
 
-![Section II 13-1](../images/sectionII-13_1.png)
+![Section II 13-1](images/sectionII-13_1.png)
 
-![Section II 13-2](../images/sectionII-13_2.png)
+![Section II 13-2](images/sectionII-13_2.png)
 
 The ArrayTester class provides two helper methods: containsDuplicates and hasAllValues. The method containsDuplicates returns true if the given one-dimensional array arr contains any duplicate values and false otherwise. The method hasAllValues returns true if and only if every value in arr1 appears in arr2. You do not need to write the code for these methods. 
 
-![Section II 13-3](../images/sectionII-13_3.png)
+![Section II 13-3](images/sectionII-13_3.png)
 
 Complete method isLatin below. Assume that getColumn works as specified, regardless of what you wrote in part(a). You must use getColumn, hasAllValues, and containsDuplicates appropriately to receive full credit.
 

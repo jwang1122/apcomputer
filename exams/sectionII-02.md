@@ -73,7 +73,7 @@ The findkth method returns the kth word in alphabetical order in the set, even t
 
  (b) Write a client method removeA that removes all words that begin with "A." If there are no such words in s, then removeA does nothing. In writing removeA, you may call method count A specified in part (a). Assume that count A works as specified, regardless of what you wrote in part (a). 
 
- ![WordSet 1](images/WordSet1.png)
+ ![WordSet 1](images/sectionII-02.png)
 
 Complete method removeA below: 
 

@@ -84,7 +84,7 @@ Complete method processActors below.
  public void processActors(Arraylist<Actor> actors)
 ```
 
-![GridWorld Case](../images/GridWorld.png)
+![GridWorld Case](images/sectionII-04.png)
 
 Before you starting code your code,
 
