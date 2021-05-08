@@ -51,7 +51,7 @@ public class FrogSimulation
 (a)  Write  the simulate method, which simulates the frog attempting to hop in a straight line to a goal from the frog's starting position of 0 within a maximum number of hops. The method returns **true** if the frog successfully reached the goal within the maximum number of hops; otherwise, the method returns false. 
 
 
-TheFrogSimulation class provides a method called hopDistance that returns an integer representing the distance(positive or negative) to be moved when the frog hops. A positive distance represents a move toward the goal. A negative distance represents a move away from the goal. The returned distance may vary from call to call. Each time the frog hops, its position is adjusted by the value returned by a call to the hopDistance method. 
+The FrogSimulation class provides a method called hopDistance that returns an integer representing the distance(positive or negative) to be moved when the frog hops. A positive distance represents a move toward the goal. A negative distance represents a move away from the goal. The returned distance may vary from call to call. Each time the frog hops, its position is adjusted by the value returned by a call to the hopDistance method. 
 
 The frog hops until one of the following conditions becomes true: 
 

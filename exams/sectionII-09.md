@@ -2,11 +2,11 @@
 
 A color grid is defined as a two-dimensional array whose elements are character strings having values "b" (blue), "r" (red), "g" (green), or "y" (yellow). The elements are called pixels because they represent pixel locations on a computer screen. For example, example, 
 
-![2D array](../images/sectionII-09_1.png)
+![2D array](./images/sectionII-09_1.png)
 
 A connected region for any pixel is the set of all pixels of the same color that can be reached through a direct path along horizontal or vertical moves starting at that pixel. A connected region can consist of just a single pixel or the entire color grid. For example, if the two-dimensional array is called pixels, the connected region for pixels[1][0] is as shown here for three different arrays. 
 
-![2D array 2](../images/sectionII-09_2.png)
+![2D array 2](./images/sectionII-09_2.png)
 
 The class ColorGrid, whose declaration is shown below, is used for storing, displaying, and changing the colors in a color grid. 
 
