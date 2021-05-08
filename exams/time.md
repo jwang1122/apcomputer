@@ -61,4 +61,6 @@
 |2021/05/01|Angela  |quiz14.md         |7"12        |2E
 |2021/05/01|Nick    |sectionII-09.md   |22"12       |
 |2021/05/01|Angela  |sectionII-09.md   |23"41       |
+|2021/05/08|Nick    |         |        |absent
+|2021/05/08|Angela  |sectionII-09.md   |        |
 
