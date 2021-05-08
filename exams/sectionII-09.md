@@ -2,11 +2,11 @@
 
 A color grid is defined as a two-dimensional array whose elements are character strings having values "b" (blue), "r" (red), "g" (green), or "y" (yellow). The elements are called pixels because they represent pixel locations on a computer screen. For example, example, 
 
-![2D array](../images/2Darray.png)
+![2D array](../images/sectionII-09_1.png)
 
 A connected region for any pixel is the set of all pixels of the same color that can be reached through a direct path along horizontal or vertical moves starting at that pixel. A connected region can consist of just a single pixel or the entire color grid. For example, if the two-dimensional array is called pixels, the connected region for pixels[1][0] is as shown here for three different arrays. 
 
-![2D array 2](../images/2Darray2.png)
+![2D array 2](../images/sectionII-09_2.png)
 
 The class ColorGrid, whose declaration is shown below, is used for storing, displaying, and changing the colors in a color grid. 
 
@@ -51,7 +51,7 @@ public class ColorGrid
 
 (a) Write the implementation code for the ColorGrid constructor. The constructor should initialize the myPixels matrix of the ColorGrid as follows: The dimensions of myPixels are numRows X numCols. String s contains numRows X numCols characters, where each character is one of the colors of the grid—"r", "g", ”b", or "y". The characters are contained in s row by row from top to bottom and left to right. For example, given that numRows is 3, and numCols is 4, if s is "brrygrggyyyr", myPixels should be initialized to be 
 
-![2D array](../images/2Darray3.png)
+![2D array](../images/sectionII-09_3.png)
 
 Complete the constructor below: 
 
@@ -69,7 +69,7 @@ Complete the constructor below:
 
 For example, the effect of the method call c.paintRegion (2. 3. "b", "r") on the ColorGridc is shown here. (The starting pixel is shown in a frame, and its connected region is shaded.)
 
-![2D array](../images/2Darray4.png)
+![2D array](../images/sectionII-09_4.png)
 
 Complete the method paint Region below. **Note: Only a recursive solution ■will be accepted.**
 

@@ -52,7 +52,7 @@ public class Time
 
 (B) myHrs= h; 
     myMins= m;
-    my Secs = s; 
+    mySecs = s; 
 
 (C) resetTime(myHrs, myMins, ciySecs); 
 (D) h = myHrs;
@@ -74,10 +74,10 @@ public void display (Time t)
 Which of the following are correct replacements for /* method body */?
 
 ```java
-I   Time T = new Time (h,m, s) ; 
+I   Time T = new Time (h, m, s) ; 
     System.out.println (T);
-II  System.out.println(t .myHrs + ":" + t.myMins+ " : " + t.mySecs);  
-III System, out .printin(t); 
+II  System.out.println(t.myHrs + ":" + t.myMins+ " : " + t.mySecs);  
+III System.out.println(t); 
 ```
 (A) I only
 (B) II only

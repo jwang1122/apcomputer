@@ -55,4 +55,10 @@
 |2021/04/24|Angela  |sectionII-04.md   |24"21       |60%
 |2021/04/24|Nick    |sectionII-03.md   |16"24       |
 |2021/04/24|Angela  |sectionII-03.md   |17"45       |
+|2021/05/01|Nick    |quiz12.md         |7"11        |3D,4C,5D
+|2021/05/01|Angela  |quiz12.md         |8"2         |2C,3B,4E
+|2021/05/01|Nick    |quiz14.md         |4"52        |100%
+|2021/05/01|Angela  |quiz14.md         |7"12        |2E
+|2021/05/01|Nick    |sectionII-09.md   |22"12       |
+|2021/05/01|Angela  |sectionII-09.md   |23"41       |
 

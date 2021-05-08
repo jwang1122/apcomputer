@@ -120,6 +120,11 @@
 
 * quiz22
  
+    1D, 2B, 3D, 4C, 5B
+    [Quiz21 Questions](quiz21.md)
+
+* quiz23
+ 
     1D, 2B, 3C, 4C, 5B
     [Quiz21 Questions](quiz21.md)
 

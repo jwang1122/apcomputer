@@ -46,7 +46,7 @@ Use class Chair and method sitOnChair to answer Questions 3 and 4.
         }
     }
 
-    public void sitOnChair ( ) 
+    public void  sitOnChair( ) 
     {
         /* program statements */ 
     }
