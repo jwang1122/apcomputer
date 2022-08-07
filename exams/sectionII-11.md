@@ -38,7 +38,7 @@ public class WordPairList
 }
 ``` 
 
-(a)  Write the constructor for theWordPairListclass. The constructor takes an array of strings words as a parameter and initializes the instance variableallPairsto anArrayListof WordPair objects.
+(a)  Write the constructor for the WordPairList class. The constructor takes an array of strings words as a parameter and initializes the instance variable allPairs to anArrayListof WordPair objects.
 
 A WordPair object consists of a word from the array paired with a word that appears later in the array. The allPairs list contains WordPair objects (words[i], words[j]) for every i and j, where 0 <= i < j<words.length.  Each WordPair object is added exactly once to the list. 
 

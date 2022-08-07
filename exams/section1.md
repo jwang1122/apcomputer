@@ -1,6 +1,6 @@
 # AP Computer Sicence Section I
 Time&#x2501;1 hour and 30 minutes 
-Average: 2.25 for each question.
+Average: 2.25 minutes for each question.
 
 1. Evaluate the following expression: 4 + 6 % 12/4? (page 12)
 ```

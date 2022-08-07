@@ -125,7 +125,7 @@
 
 * quiz23
  
-    1D, 2B, 3C, 4C, 5B
+    1B, 2C, 3E, 4E, 5A
     [Quiz21 Questions](quiz21.md)
 
 

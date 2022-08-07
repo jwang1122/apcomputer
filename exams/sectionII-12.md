@@ -10,7 +10,7 @@ public interface StringChecker
 
 A CodeWordChecker is a StringChecker. A CodeWordChecker object can be constructed with three parameters: two integers and a string. The first two parameters specify the minimum and maximum code word lengths, respectively, and the third parameter specifies a string that must **not** occur in the code word. A CodeWordChecker object can also be constructed with a single parameter that specifies a string that must **not** occur in the code word; in this case the minimum and maximum lengths will default to 6 and 20, respectively.
 
-The following examples illustrate the behavior ofCodeWordCheckerobjects. 
+The following examples illustrate the behavior of CodeWordChecker objects. 
 
 **Example 1** 
 

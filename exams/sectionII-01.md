@@ -1,3 +1,17 @@
+COMPUTER SCIEFNCE A
+SECTION II 
+Time—1 hour and 30 minutes 
+Number of Questions-4 
+percent of Total Grade- -50% 
+
+JOirections: SHOW ALL YOUR WORK. REMEMBER THAT PROGRAM SEGMENTS ARE TO BE WRITTEN IN JAVA™ 
+Notes: 
+* Assume that the classes listed in the Java Quick Reference have been imported where appropriate. 
+* Unless otherwise noted in the question, assume that parameters in method calls are not null and that methods are called only when their preconditions are satisfied. 
+* In writing solutions for each question, You may use any of the accessible methods that are listed in classes defined in that question. Writing significant amounts of code that can be replaced by a call to one of these methods will not receive full credit. 
+
+FREE-RESPONSE QUESTIONS 
+
 # SectionII 1
 
 1. A chemical solution is said to be acidic if it has a pH integer value from 1 to 6, inclusive. The lower the pH, the more acidic the solution. An experiment has a large number of chemical solutions arranged in a line and a mechanical arm that moves back and forth along the line, so that the acidity of each solution can be altered by adding various chemicals. A chemical solution is specified by the solution interface below. 

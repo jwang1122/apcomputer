@@ -47,7 +47,7 @@ Questions related to **datatype** can be divided by
     ```
 1. Which code has declared and properly populated the given ArrayList?
     ```java
-    I. 	ArrayList<String> alist1 = new ArrayList<String>();
+    I. ArrayList<String> alist1 = new ArrayList<String>();
         alist1.add("4.5");
     II. ArrayList<Integer> alist2 = new ArrayList<Integer>();
         alist1.add((int)4.5); 
@@ -86,7 +86,7 @@ Questions related to **datatype** can be divided by
     (A) System.out.print("Ilove Java"); 
     (B) System.out.print("Ilove" + "Java"); 
     (C) System.out.print(1 + "love" + Java"); 
-    (D) System.out.print(1 + "love" + "Java"); 
+    (D) System.out.print(1 "love" + "Java"); 
     (E) System.out.print("I love" + " " + "Java"); 
     ```
 1. Consider the following code segment: 
