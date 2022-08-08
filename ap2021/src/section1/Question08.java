@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 import java.util.Arrays;
 import java.util.Collections;

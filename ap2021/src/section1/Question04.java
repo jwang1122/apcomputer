@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 /**
  * 1. swap pointer doesn't change the content of String object.

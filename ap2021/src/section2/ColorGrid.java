@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section2;
+package section2;
 
 /**
  * @Refer C:\Users\12818\workspace\apcomputer\exams\sectionII-09.md

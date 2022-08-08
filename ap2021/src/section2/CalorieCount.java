@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section2;
+package section2;
 
 public class CalorieCount {
 	private int numCaloriesLimit;

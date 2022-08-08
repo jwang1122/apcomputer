@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 /**
  * if-else if-else, one condition meet, others will not be executed.

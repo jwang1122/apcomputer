@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 public class Question25 {
 	static int[] sales = { 23, 5, 4, 7, 4, 112, 45 };

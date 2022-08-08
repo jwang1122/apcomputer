@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 /**
  * 
  * f1: downwards; f2: upwards; f3: Recursion call,

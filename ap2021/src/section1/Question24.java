@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 /**
  * I have different opinion, (C) should be better answer. (English issue)

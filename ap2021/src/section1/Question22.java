@@ -1,4 +1,4 @@
-package com.huaxia.ap2021.section1;
+package section1;
 
 /*
  * arr1 and arr2 are the same.
