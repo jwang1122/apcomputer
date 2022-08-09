@@ -24,7 +24,8 @@
 ## Answers for Quizes
 * quiz1
  
-    1E, 2D, 3E, [Quiz1 Questions](quiz1.md)
+    1E, 2D, 3E, 4C, 5E
+    [Quiz1 Questions](quiz01.md)
 * quiz2
  
     1C, 2A, 3B, 4D, 5D
@@ -120,15 +121,27 @@
 * quiz22
  
     1D, 2B, 3D, 4C, 5B
-    [Quiz21 Questions](quiz21.md)
+    [Quiz21 Questions](quiz22.md)
 
 * quiz23
  
     1B, 2C, 3E, 4E, 5A
-    [Quiz21 Questions](quiz21.md)
+    [Quiz21 Questions](quiz23.md)
 
+* quiz24
+  
+  1E, 2D, 3A, 4D, 5B
+  [Quiz24 ](quiz24.md)
+
+  1. Searching is usually more efficient using a binary search, provided the array is sorted. However, a binary search will require more than one comparison if the target is not in the middle, whereas a linear search will need only one comparison if the target is first in line. Therefore, each of the four situations presented in (A) through (D) could be the most efficient, depending on the position of the Twix. The answer is (E).
 
 ## Section II 
-* [](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
-* [](sectionII-10.md) ⟶ [](../ap2021/src/section2/FrogsSimulation.java)
-* [](sectionII-11.md) ⟶ [](../ap2021/src/section2/WordPairList.java)
+* [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
+* [Problem 10](sectionII-10.md) ⟶ [](../ap2021/src/section2/FrogsSimulation.java)
+* [Problem 11](sectionII-11.md) ⟶ [](../ap2021/src/section2/WordPairList.java)
+* [Problem 12](sectionII-12.md) ⟶ [](../ap2021/src/section2/CodeWordChecker.java)
+* [Problem 13](sectionII-13.md) ⟶ [](../ap2021/src/section2/ArrayTester.java)
+* [Problem 14](sectionII-14.md) ⟶ [Page 334](../ap2021/src/section2/Problem14.java)
+* [Problem 15](sectionII-15.md) ⟶ [Page 336](../ap2021/src/section2/Problem15.java)
+* [Problem 16](sectionII-16.md) ⟶ [Page 339](../ap2021/src/section2/Problem16.java)
+* [Problem 17](sectionII-17.md) ⟶ [Page 342](../ap2021/src/section2/Problem17.java)
