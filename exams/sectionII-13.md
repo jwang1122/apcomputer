@@ -40,7 +40,7 @@ public class ArrayTester
 ```
 (a)  Write a static methodgetColumn, which returns a one-dimensional array containing the elements of a single column in a two-dimensional array. The elements in the returned array should be in the same order as they appear in the given column. The notation arr2D[r][c]represents the array element at row r and column c. 
 
-The following code segment initializes an array and calls thegetColumnmethod.
+The following code segment initializes an array and calls thegetColumn method.
 
 ```java
 int[][] arr2D = { { 0, 1, 2 }, 
