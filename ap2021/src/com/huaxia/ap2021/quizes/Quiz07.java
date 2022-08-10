@@ -2,7 +2,7 @@ package com.huaxia.ap2021.quizes;
 
 import java.util.ArrayList;
 
-public class Quiz7 {
+public class Quiz07 {
 
 	public static void main(String[] args) {
 		question1();

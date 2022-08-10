@@ -1,0 +1,1 @@
+There a lot of marshroom, which has two differnet kind A and B. there is machine which can tell how many pair you put in. only thing you know is the marshroom[0] is A type. the maximun marshroom you can put in the machine is 10000 at a time. write a program to tell how many A and B in those marshroom.

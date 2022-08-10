@@ -1,6 +1,6 @@
 package com.huaxia.ap2021.quizes;
 
-public class Quiz3 {
+public class Quiz03 {
 
 	public static void main(String[] args) {
 		question1();

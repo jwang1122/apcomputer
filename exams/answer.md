@@ -22,39 +22,39 @@
 * Question4: page 66
   
 ## Answers for Quizes
-* quiz1
+* quiz01
  
     1E, 2D, 3E, 4C, 5E
     [Quiz1 Questions](quiz01.md)
-* quiz2
+* quiz02
  
     1C, 2A, 3B, 4D, 5D
     [Quiz2 Questions](quiz2.md)
-* quiz3
+* quiz03
  
     1C, 2D, 3A, 4C, 5B
     [Quiz3 Questions](quiz3.md)
-* quiz4
+* quiz04
  
     1B, 2D, 3C, 4B, 5D
     [Quiz4 Questions](quiz4.md)
-* quiz5
+* quiz05
  
     1D, 2B, 3E, 4D, 5D
     [Quiz5 Questions](quiz5.md)
-* quiz6
+* quiz06
  
     1C, 2E, 3E, 4B, 5D
     [Quiz6 Questions](quiz6.md)
-* quiz7
+* quiz07
  
     1A, 2C, 3E, 4A, 5D
     [Quiz7 Questions](quiz7.md)
-* quiz8
+* quiz08
  
     1B, 2D, 3B, 4D, 5C
     [Quiz8 Questions](quiz8.md)
-* quiz9
+* quiz09
  
     1B, 2D, 3E, 4B, 5D
     [Quiz9 Questions](quiz9.md)
