@@ -16,20 +16,20 @@ class WordSetTest {
 	WordSet wordset;
 	@BeforeEach
 	void setUp() throws Exception {
-		String[] words = { "GRAPE", "PEAR", "FIG", "APPLE" };
+		String[] words = { "GRAPE", "PEAR", "FIG", "APPLE", "ARGS" };
 		wordset = new WordSet(words);
 	}
 
 	@Test
 	void testFindkth() {
-		String word = wordset.findkth(3);
+		String word = wordset.findkth(4);
 		assertEquals(word, "GRAPE");
 	}
 
 	@Test
 	void testCountA() {
 		int c = WordSet.countA(wordset);
-		assertTrue(c==1);
+		assertTrue(c==2);
 	}
 	
 	@Test
@@ -49,6 +49,5 @@ class WordSetTest {
 		assertTrue(ws.contains("BE"));
 		assertTrue(ws.contains("NOT"));
 		assertTrue(ws.size()==2);
-		
 	}
 }

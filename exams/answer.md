@@ -135,6 +135,33 @@
 
   1. Searching is usually more efficient using a binary search, provided the array is sorted. However, a binary search will require more than one comparison if the target is not in the middle, whereas a linear search will need only one comparison if the target is first in line. Therefore, each of the four situations presented in (A) through (D) could be the most efficient, depending on the position of the Twix. The answer is (E).
 
+* quiz25
+
+1A, 2B, 3D, 4B, 5D
+
+[Quiz25](quiz25.md)
+
+* quiz26 [page 265]
+  
+1B, 2D, 3C, 4A, 5B
+[Quiz26](quiz26.md)
+
+* quiz27 [page 269]
+  
+1C, 2D, 3B, 4D, 5D
+[Quiz27](quiz27.md)
+
+* quiz28 [page 269, 318]
+  
+1A, 2B, 3B, 4C, 5A
+[Quiz28](quiz28.md)
+
+* quiz29 [page 269]
+  
+1C, 2C, 3E, 4B, 5A
+[Quiz29](quiz29.md)
+
+
 ## Section II 
 * [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
 * [Problem 10](sectionII-10.md) ⟶ [](../ap2021/src/section2/FrogsSimulation.java)

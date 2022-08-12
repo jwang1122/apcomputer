@@ -59,7 +59,7 @@ The findkth method returns the kth word in alphabetical order in the set, even t
  3 | GRAPE
  4 | PEAR
 
- (a) Write a client method countA that returns the number of words in WordSet s that begin with the letter “A.” In writing count A, you may call any of the methods of the WordSet class. Assume that the methods work as specified. 
+ (a) Write a client method countA that returns the number of words in WordSet so that begin with the letter “A”. In writing countA, you may call any of the methods of the WordSet class. Assume that the methods work as specified. 
 
  Complete method countA below. 
 
@@ -68,10 +68,10 @@ The findkth method returns the kth word in alphabetical order in the set, even t
     * @param s the current WordSet 
     * @return the number of words in s that begin with "A"
     */
-    public static int count A (WordSet s)  
+    public static int countA (WordSet s)  
  ```
 
- (b) Write a client method removeA that removes all words that begin with "A." If there are no such words in s, then removeA does nothing. In writing removeA, you may call method count A specified in part (a). Assume that count A works as specified, regardless of what you wrote in part (a). 
+ (b) Write a client method removeA that removes all words that begin with "A". If there are no such words in s, then removeA does nothing. In writing removeA, you may call method countA specified in part (a). Assume that countA works as specified, regardless of what you wrote in part (a). 
 
  ![WordSet 1](images/sectionII-02.png)
 

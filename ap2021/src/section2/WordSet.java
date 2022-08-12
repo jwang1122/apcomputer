@@ -1,5 +1,7 @@
 package section2;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.TreeSet;
 
 /**
@@ -9,7 +11,8 @@ import java.util.TreeSet;
  *
  */
 public class WordSet {
-	private TreeSet<String> words = new TreeSet<String>();
+	
+	private ArrayList<String> words = new ArrayList<String>();
 
 	public WordSet() {
 
@@ -22,6 +25,7 @@ public class WordSet {
 		/* implementation not shown */
 		for (String word : words)
 			this.words.add(word);
+		Collections.sort(this.words);
 	}
 
 	/**
@@ -77,7 +81,7 @@ public class WordSet {
 	// There may be instance variables, constructors, and methods
 	// that are not shown.
 
-	public TreeSet<String> getWords() {
+	public ArrayList<String> getWords() {
 		return words;
 	}
 
@@ -100,7 +104,9 @@ public class WordSet {
 
 	public static void removeA(WordSet s) {
 		int numA = countA(s);
-		for (int i = 1; i <= numA; i++)
+//		for (int i = 1; i <= numA; i++)// need from large to small
+//			s.remove(s.findkth(1));
+		for (int i = numA; i >0; i--)// need from large to small
 			s.remove(s.findkth(1));
 	}
 
@@ -115,7 +121,7 @@ public class WordSet {
 	}
 
 	public static void main(String[] args) {
-		String[] words = { "GRAPE", "PEAR", "FIG", "APPLE" };
+		String[] words = { "GRAPE", "PEAR", "FIG", "APPLE", "ARGa" };
 		WordSet wordSet = new WordSet(words);
 		System.out.println(wordSet);
 		System.out.println(wordSet.findkth(3));
