@@ -16,7 +16,7 @@ public class Deck
 {
     private int [ ] cards; 
 
-    public Deck (int numcards) 
+    public Deck (int[] newcards) 
     { /* code not shown*/ } 
 
     public boolean inOrder( ) 

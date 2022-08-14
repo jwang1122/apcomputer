@@ -1,5 +1,7 @@
 package section2;
 
+import java.util.Random;
+
 public class DiceSimulation {
 	private int numSampleSize;
 	private int numFaces;
@@ -11,7 +13,8 @@ public class DiceSimulation {
 	}
 
 	public int roll() {
-		return (int)(Math.random() * numFaces + 1); // understand Math.random()
+//		return (int)(Math.random() * numFaces + 1); // understand Math.random()
+		return new Random().nextInt(numFaces) + 1;
 	}
 	
 	public int runSimulation() {
@@ -31,7 +34,7 @@ public class DiceSimulation {
 
 
 	public static void main(String[] args) {
-        int sampleSize = 10;
+        int sampleSize = 10000;
         int numFaces = 6;
 		DiceSimulation test = new DiceSimulation(sampleSize, numFaces);
 		int percentage = test.runSimulation();

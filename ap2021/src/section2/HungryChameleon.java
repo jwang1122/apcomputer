@@ -1,9 +1,34 @@
 package section2;
 
+/**
+ * http://www.cs.gettysburg.edu/~ilinkin/courses/Spring-2011/cs112/assignments/a4.html
+ * http://www.cs.gettysburg.edu/~ilinkin/courses/Fall-2020/cs112/assignments/a4.html
+ */
 import java.util.ArrayList;
 
 public class HungryChameleon extends ChameleonCritter {
 	
+	public static void main(String[] args) {
+		// 1. generate list of Actor: actors
+		ArrayList<Actor> actors = new ArrayList<>();
+		for (int i = 0; i < 4; i++) {
+			Bug b = new Bug(i); // All adjacent actors are bugs
+			actors.add(b);
+		}
+		System.out.println(actors);
+//		for (int i = 0; i < 4; i++) {
+//			Actor b = new Actor(i);  // None of adjacent actors is Bug
+//			actors.add(b);
+//		}
+
+		// 2. create an object of the HungryChameleon class
+		HungryChameleon hc = new HungryChameleon(2);
+
+		// 3. call the action method
+		hc.processActors(actors);
+		System.out.println(actors);
+	}
+
 	
 	public HungryChameleon(int color) {
 		this.color = color;
@@ -52,25 +77,6 @@ public class HungryChameleon extends ChameleonCritter {
 			eatBug(bugList);
 	}
 
-	public static void main(String[] args) {
-		// 1. genrate list of Actor: actors
-		ArrayList<Actor> actors = new ArrayList<>();
-		for (int i = 0; i < 5; i++) {
-			Bug b = new Bug(i); // All adjacent actors are bugs
-			actors.add(b);
-		}
-//		for (int i = 0; i < 5; i++) {
-//			Actor b = new Actor(i);  // None of adjacent actors is Bug
-//			actors.add(b);
-//		}
-
-		// 2. create an object of the HungryChameleon class
-		HungryChameleon hc = new HungryChameleon(2);
-
-		// 3. call the action method
-		hc.processActors(actors);
-	}
-
 }
 
 class Actor {
@@ -94,6 +100,13 @@ class Actor {
 	public void setColor(int color) {
 		this.color = color;
 	}
+
+	@Override
+	public String toString() {
+		return "Actor [color=" + color + ", gridworld=" + gridworld + "]";
+	}
+	
+	
 }
 
 class Bug extends Actor {

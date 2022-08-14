@@ -161,13 +161,46 @@
 1C, 2C, 3E, 4B, 5A
 [Quiz29](quiz29.md)
 
+* quiz30 [page 323]
+  
+1B, 2C, 3E, 4A, 5C
+[Quiz30](quiz30.md)
+
+* quiz31 [page 324]
+  
+1B, 2D, 3B, 4E, 5A
+[Quiz31](quiz31.md)
+
+* quiz32 [page 324]
+  
+1D, 2C, 3C, 4C, 5D
+[Quiz32](quiz32.md)
+
+* quiz33 [page 327]
+  
+1C, 2D, 3A, 4E, 5B
+[Quiz33](quiz33.md)
+
+* quiz34 [page 327]
+  
+1, 2, 3, 4, 5
+[Quiz34](quiz34.md)
 
 ## Section II 
 * [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
+* [Problem 02](sectionII-02.md) ⟶ [](../ap2021/src/section2/WordSet.java)
+* [Problem 03](sectionII-03.md) ⟶ [](../ap2021/src/section2/Tournament.java)
+* [Problem 04](sectionII-04.md) ⟶ [](../ap2021/src/section2/HungryChameleon.java)
+* [Problem 05](sectionII-05.md) ⟶ [](../ap2021/src/section2/DiceSimulation.java)
+* [Problem 06](sectionII-06.md) ⟶ [](../ap2021/src/section2/CalorieCount.java)
+* [Problem 07](sectionII-07.md) ⟶ [](../ap2021/src/section2/TravelPlan.java)
+* [Problem 08](sectionII-08.md) ⟶ [](../ap2021/src/section2/SeatingChart.java)
+
 * [Problem 10](sectionII-10.md) ⟶ [](../ap2021/src/section2/FrogsSimulation.java)
 * [Problem 11](sectionII-11.md) ⟶ [](../ap2021/src/section2/WordPairList.java)
 * [Problem 12](sectionII-12.md) ⟶ [](../ap2021/src/section2/CodeWordChecker.java)
 * [Problem 13](sectionII-13.md) ⟶ [](../ap2021/src/section2/ArrayTester.java)
+* 
 * [Problem 14](sectionII-14.md) ⟶ [Page 334](../ap2021/src/section2/Problem14.java)
 * [Problem 15](sectionII-15.md) ⟶ [Page 336](../ap2021/src/section2/Problem15.java)
 * [Problem 16](sectionII-16.md) ⟶ [Page 339](../ap2021/src/section2/Problem16.java)

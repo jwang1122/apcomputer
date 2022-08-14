@@ -6,7 +6,7 @@ public class Cookbook
     private ArrayList recipeList; // each entry is an instance of a Recipe representing one recipe in the cookbook
 
     /* precondition: numPeople^ 0 
-     * postcondition: All recipes in recipeList have been converted to serve numPeople number of people
+     * postcondition: All recipes in recipeList have been converted to number of people
      */
      public void standardize (int numPeople) 
      {/*code not shown */}
@@ -26,7 +26,7 @@ public class Ingredient
     /** precondition:amt > 0.0 
       * postcondition: amount has been set to amt
       */
-      public voidsetAmount (doubleamt) 
+      public void setAmount (double amt) 
      {/*code not shown */}
 
     /* precondition:newNumber > 0
@@ -76,3 +76,26 @@ Complete method standardize below.
 public void standardize (int numPeople) 
 ```
 
+```mermaid
+classDiagram
+
+class Cookbook{
+  recipeList:ArrayList
+  standardize(int numberPeople)
+}
+
+class Recipe{
+  name:String
+  ingredientList:ArrayList
+  preparationProcess:String
+  numberServed:int
+}
+
+class Ingredient{
+  name:String
+  amount:double
+}
+
+Cookbook o-- Recipe 
+Recipe o-- Ingredient
+```

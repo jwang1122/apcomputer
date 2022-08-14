@@ -99,3 +99,5 @@ public boolean addTour(Tourt t)
 
 (c) Write the TravelPlan addTour method.
 
+
+if start>other.end && end<other.start, there is no conflict, other than this, all other condition are conflict.

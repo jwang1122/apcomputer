@@ -1,6 +1,6 @@
 package com.huaxia.ap2021.quizes;
 
-public class Quiz {
+public class Quiz31 {
 
 	public static void main(String[] args) {
 		question1();
@@ -31,8 +31,29 @@ public class Quiz {
 	}
 
 	private static void question5() {
-		// TODO Auto-generated method stub
-
+		Fish Bob = new shark () ;
+		System.out.println(Bob.endoskeleton);  
+		Bob.action() ; 
 	}
 
 }
+
+class Fish
+{
+    public String endoskeleton = "bone"; 
+    public void action ( ) 
+    {
+        System.out.println ("splash splash") ; 
+    }
+
+} 
+
+class shark extends Fish 
+{
+    public void action() 
+    {
+        System.out.println("chomp chomp") ; 
+    }
+    public String endoskeleton = "cartilage"; 
+}
+

@@ -10,7 +10,7 @@ public class DataTypeTest {
 		int y = 6;
 		int z = x + y;
 		System.out.println(z);
-		var s = new Student("John", 11);
+		var s = new Student1("John", 11);
 		System.out.println(s);
 		System.out.println(s.getClass().getName());
 	}

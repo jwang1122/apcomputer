@@ -15,9 +15,9 @@ Ballroom Dance     | 20 | 3
 Basket Weaving     | 15 | 14
 Constitutional Law | 10 | 7
 Marine Biology     | 10 | 10
-programming        | 18 | 18
+Programming        | 18 | 18
 
-Note that three electives, Astronomy* Programming, and Marine Biology, are fully enrolled and are no longer options for students. 
+Note that three electives, Astronomy, Programming, and Marine Biology, are fully enrolled and are no longer options for students. 
 
 Now suppose that the following students need to be assigned to electives: 
 
