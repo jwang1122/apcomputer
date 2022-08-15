@@ -196,6 +196,11 @@
 1A, 2E, 3C, 4A, 5D
 [Quiz36](quiz36.md)
 
+* quiz37 [page 331]
+  
+1, 2, 3, 4, 5
+[Quiz37](quiz37.md)
+
 ## Section II 
 * [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
 * [Problem 02](sectionII-02.md) ⟶ [](../ap2021/src/section2/WordSet.java)
@@ -215,3 +220,7 @@
 * [Problem 15](sectionII-15.md) ⟶ [Page 336](../ap2021/src/section2/Problem15.java)
 * [Problem 16](sectionII-16.md) ⟶ [Page 339](../ap2021/src/section2/Problem16.java)
 * [Problem 17](sectionII-17.md) ⟶ [Page 342](../ap2021/src/section2/Problem17.java)
+* [Problem 18](sectionII-18.md) ⟶ [Page 342](../ap2021/src/section2/Problem18.java)
+* [Problem 19](sectionII-19.md) ⟶ [Page 342](../ap2021/src/section2/Problem19.java)
+* [Problem 20](sectionII-20.md) ⟶ [Page 342](../ap2021/src/section2/Problem20.java)
+* [Problem 21](sectionII-21.md) ⟶ [Page 342](../ap2021/src/section2/Problem21.java)
