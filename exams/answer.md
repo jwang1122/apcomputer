@@ -181,10 +181,20 @@
 1C, 2D, 3A, 4E, 5B
 [Quiz33](quiz33.md)
 
-* quiz34 [page 327]
+* quiz34 [page 331]
   
-1, 2, 3, 4, 5
+1E, 2B, 3A, 4B, 5B
 [Quiz34](quiz34.md)
+
+* quiz35 [page 331]
+  
+1E, 2C, 3E, 4E, 5E
+[Quiz35](quiz35.md)
+
+* quiz36 [page 331]
+  
+1A, 2E, 3C, 4A, 5D
+[Quiz36](quiz36.md)
 
 ## Section II 
 * [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
