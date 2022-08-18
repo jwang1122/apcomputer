@@ -69,7 +69,7 @@ public int getTotalMarbles ()
 For example, after the execution of the following code segment 
 
 ```java
-Marblecollection m = new MarbleCollection () ; 
+MarbleCollection m = new MarbleCollection () ; 
 m.addSet(new MarbleSet ("red", 2)); 
 m.addSet(new MarbleSet ("blue", 3)); 
 m.addSet(new MarbleSet ("green", 3)); 
@@ -95,9 +95,9 @@ Complete the method removeColor below.
 
 ```java
     /** Removes all the marble sets from the marble collection that have the same color as 
-    * narbleColor and returns the total number of marbles removed 
+    marbleColor and returns the total number of marbles removed 
     * @param marbleColor the color of the marble sets to be removed 
-    * @returnthe total number of marbles of marblecolor in the marble sets removed 
+    * @return the total number of marbles of marbleColor in the marble sets removed 
     */
-    public int removeColor (String marbleCol) 
+    public int removeColor (String marbleColor) 
 ```

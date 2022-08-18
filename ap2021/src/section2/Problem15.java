@@ -24,10 +24,10 @@ class Deck {
 		int[] newCards = new int [cards.length];
 		for(int k = 0; k < cards.length/2; k++) {
 			newCards[k*2] = cards[k] ;
-			newCards [k*2+1] = cards [cards. length/2 + k];
-			
+			newCards [k*2+1] = cards [cards.length/2 + k];
 		}
 		cards = newCards;
+	}
 //		Random rand = new Random();
 //		
 //		for (int i = 0; i < cards.length; i++) {
@@ -36,15 +36,10 @@ class Deck {
 //			cards[randomIndexToSwap] = cards[i];
 //			cards[i] = temp;
 //		}
-	}
 
 	public int reorderingCount() {
 		/* to be implemented in part (c) */
 		int count= 0;
-//		while ( !inOrder( ) || count == 0) {
-//			shuffle() ; 
-//			count += 1; 
-//		}
 		do {
 			shuffle();
 			System.out.println(Arrays.toString(cards));
@@ -53,6 +48,10 @@ class Deck {
 		
 		return count; 
 	}
+//		while ( !inOrder( ) || count == 0) {
+//			shuffle() ; 
+//			count += 1; 
+//		}
 
 	// precondition: For all k such that
 	// 0<= k<cards.length,

@@ -41,7 +41,7 @@ class NumChanger {
 	// other methods not shown
 }
 ```
-1. The change Vai method in Number should reassign value to be the value taken as the parameter and return the original value. Which of the following code segments should be used to replace / * missing code * / so that changeVal will work as intended? 
+1. The changeValue method in Number should reassign value to be the value taken as the parameter and return the original value. Which of the following code segments should be used to replace / * missing code */ so that changeValue will work as intended? 
 
 ```java
 (A) value = newVal;
@@ -58,7 +58,7 @@ class NumChanger {
     return oldVal;
 ```
 
-2. What will be printed as a result of executing the change method? Assume changeVal in the Number class works as intended. \
+2. What will be printed as a result of executing the change method? Assume changeValue in the Number class works as intended.
 
 ```
 (A) 5 5

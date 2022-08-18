@@ -24,7 +24,7 @@ public class Quiz09 {
 			for (int col : row) {
 				System.out.print(col + " ");
 			}
-			System.out.print("");
+			System.out.println("");
 		}
 		System.out.println();
 

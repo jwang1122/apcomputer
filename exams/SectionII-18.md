@@ -11,7 +11,7 @@ A black pixel on the screen is modeled by an object of type Pixel. The Pixel cla
 * getCol — this method returns the column number of this pixel 
 
 ```java
-public class pixel
+public class Pixel
 {
     private int row; 
     private int col;
@@ -34,7 +34,9 @@ The Screen class includes the following private data and methods:
 ```java
 public class Screen
 {
-    private ArrayList<int>[] data;
+    private ArrayList<Pixel>[] data;
+    private int numCols;
+
     // postcondition: data is created with height elements;  
     // numColsis set to width 
     public Screen (int width, int height) 
@@ -45,7 +47,7 @@ public class Screen
     // postcondition: returns the pixel at the given row and col 
     // if it exists (black) or null if the pixel doesn’t exist (white) 
     public Pixel pixelAt (int row, int col) 
-    { /* to be implemented in part (t>) */} 
+    { /* to be implemented in part (b) */} 
 
     // precondition: 0 <= row<= data, length-1; 0 <= col numCols-1; 
     // the pixel at row,col does not exist in this Screen 
@@ -86,7 +88,7 @@ public Pixel pixelAt (int row, int col)
 Complete method pixelon below. 
 
 ```java
-    // precondition: 0 <= row<= data, length-1; 0 <= col numCols-1; 
+    // precondition: 0 <= row<= data.length-1; 0 <= col numCols-1; 
     // the pixel at row,col does not exist in this Screen 
     // postcondition: adds the pixel at the given row and col so that pixels in a 
     // given row of data are in increasing column order 

@@ -198,8 +198,43 @@
 
 * quiz37 [page 331]
   
-1, 2, 3, 4, 5
+1B, 2C, 3C, 4A, 5E
 [Quiz37](quiz37.md)
+
+* quiz38 [page 331]
+  
+1B, 2A, 3B, 4E, 5D
+[Quiz38](quiz38.md)
+
+* quiz39 [page 331]
+  
+1D, 2C, 3C, 4C, 5E
+[Quiz39](quiz39.md)
+
+* quiz40 [page 331]
+  
+1A, 2D, 3A, 4D, 5D
+[Quiz40](quiz40.md)
+
+* quiz41 [page 401]
+  
+1C, 2E, 3E, 4E, 5D
+[Quiz41](quiz41.md)
+
+* quiz42 [page 401]
+  
+1B, 2B, 3E, 4E, 5D
+[Quiz42](quiz42.md)
+
+* quiz43 [page 401]
+  
+1B, 2B, 3E, 4C, 5C
+[Quiz43](quiz43.md)
+
+* quiz44 [page 401]
+  
+1A, 2D, 3E, 4E, 5E
+[Quiz44](quiz44.md)
 
 ## Section II 
 * [Problem 01](sectionII-01.md) ⟶ [](../ap2021/src/section2/Experiment.java)
@@ -210,17 +245,18 @@
 * [Problem 06](sectionII-06.md) ⟶ [](../ap2021/src/section2/CalorieCount.java)
 * [Problem 07](sectionII-07.md) ⟶ [](../ap2021/src/section2/TravelPlan.java)
 * [Problem 08](sectionII-08.md) ⟶ [](../ap2021/src/section2/SeatingChart.java)
-
+* [Problem 09](sectionII-09.md) ⟶ [](../ap2021/src/section2/SeatingChart.java)
 * [Problem 10](sectionII-10.md) ⟶ [](../ap2021/src/section2/FrogsSimulation.java)
 * [Problem 11](sectionII-11.md) ⟶ [](../ap2021/src/section2/WordPairList.java)
 * [Problem 12](sectionII-12.md) ⟶ [](../ap2021/src/section2/CodeWordChecker.java)
-* [Problem 13](sectionII-13.md) ⟶ [](../ap2021/src/section2/ArrayTester.java)
-* 
+* [Problem 13](sectionII-13.md) ⟶ [](../ap2021/src/section2/ColorGrid.java)
 * [Problem 14](sectionII-14.md) ⟶ [Page 334](../ap2021/src/section2/Problem14.java)
 * [Problem 15](sectionII-15.md) ⟶ [Page 336](../ap2021/src/section2/Problem15.java)
 * [Problem 16](sectionII-16.md) ⟶ [Page 339](../ap2021/src/section2/Problem16.java)
+* 
 * [Problem 17](sectionII-17.md) ⟶ [Page 342](../ap2021/src/section2/Problem17.java)
 * [Problem 18](sectionII-18.md) ⟶ [Page 342](../ap2021/src/section2/Problem18.java)
 * [Problem 19](sectionII-19.md) ⟶ [Page 342](../ap2021/src/section2/Problem19.java)
 * [Problem 20](sectionII-20.md) ⟶ [Page 342](../ap2021/src/section2/Problem20.java)
 * [Problem 21](sectionII-21.md) ⟶ [Page 342](../ap2021/src/section2/Problem21.java)
+

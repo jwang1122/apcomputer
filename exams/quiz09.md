@@ -24,7 +24,7 @@ If you finish 5 questions within 11 minutes, that's good enough.
 			for (int col: row) {
 				System.out.print(col +" ");
 			}
-			System.out.print("") ;
+			System.out.println("") ;
 		}
 		System.out.println();
 		

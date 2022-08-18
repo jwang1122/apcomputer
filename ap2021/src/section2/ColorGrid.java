@@ -23,6 +23,10 @@ public class ColorGrid {
 		myRows = numRows;
 		myCols = numCols;
 		myPixels = new String[numRows][numCols];
+		for(int x=0; x<s.length(); x++) {
+			myPixels[x/numCols][x%numCols] = s.substring(x, x+1);
+		}
+	}
 //		int stringIndex = 0;
 //		for (int r = 0; r < numRows; r++)
 //			for (int c = 0; c < numCols; c++) {
@@ -30,10 +34,7 @@ public class ColorGrid {
 //				myPixels[r][c] = tmp;
 //				stringIndex++;
 //			}
-		for(int x=0; x<s.length(); x++) {
-			myPixels[x/numCols][x%numCols] = s.substring(x, x+1);
-		}
-	}
+//	}
 
 	/**
 	 * Precondition: myPixels[row][col] is oldColor, one of "r",

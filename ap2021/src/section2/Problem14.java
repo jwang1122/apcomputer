@@ -44,12 +44,16 @@ class School1{
 	
 	// Sample code (a)
 	private Elective getElectiveByName (String name) {
-		for(int eIndex = 0; eIndex < this.getElectiveListSize() ; eIndex++) {
-			Elective e = electiveList. get (eIndex);
-			String eName = e.getName();
-			if (name.equals(eName)) {
+//		for(int eIndex = 0; eIndex < this.getElectiveListSize() ; eIndex++) {
+//			Elective e = electiveList.get(eIndex);
+//			String eName = e.getName();
+//			if (name.equals(eName)) {
+//				return e;
+//			}
+//		}
+		for(Elective e: electiveList) {
+			if(e.getName().equals(name))
 				return e;
-			}
 		}
 		return null;
 	}
@@ -64,8 +68,7 @@ class School1{
 
 	// Sample code (b)
 	public void assignElectivesToStudents() {
-		for (int sIndex =0; sIndex < this.getStudentListSize() ; sIndex++) {
-			Student2 s = studentList.get (sIndex) ;
+		for (Student2 s: studentList) {
 			int choice= 0;
 			while (choice < 3 && s.hasElective()) {
 				String name = s.getChoice (choice) ;
@@ -150,15 +153,9 @@ class Elective {
 class Student2{
 	private String name;
 	private ArrayList<String> choices = new ArrayList<>();
-//	private String first;
-//	private String second;
-//	private String third;
-	
+
 	public Student2(String name, String first, String second, String third) {
 		this.name = name;
-//		this.first = first;
-//		this.second = second;
-//		this.third = third;
 		choices.add(first);
 		choices.add(second);
 		choices.add(third);
