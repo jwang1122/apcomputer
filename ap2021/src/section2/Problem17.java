@@ -5,8 +5,20 @@ import java.util.ArrayList;
 public class Problem17 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		ArrayList<Classroom> schoolRooms = new ArrayList<>();
+		
+		Classroom croom = new Classroom("room-1","John");
+		schoolRooms.add(croom);
+		croom = new Classroom("room-2","David");
+		schoolRooms.add(croom);
+		croom = new Classroom("room-3","Hongkai");
+		schoolRooms.add(croom);
+		School school = new School(schoolRooms);
+		System.out.println(school);
+		
+		Classroom room = school.findClassroom("Hongkai");
+		System.out.println(room);
+				
 	}
 
 }
@@ -45,6 +57,13 @@ class School {
 		}
 		return "Student not found.";
 	}
+
+	@Override
+	public String toString() {
+		return "School (classrooms=" + classrooms + ")";
+	}
+	
+	
 }
 
 class Classroom {
@@ -52,8 +71,9 @@ class Classroom {
 	private String teacherName;
 	private ArrayList<Student> Students;
 
-	public Classroom(String roomID) {
+	public Classroom(String roomID, String teachName) {
 		this.roomID = roomID;
+		this.teacherName = teachName;
 	}
 	public Classroom(String teacher, ArrayList<Student> theStudents) {
 		teacherName = teacher;
@@ -68,6 +88,10 @@ class Classroom {
 	public ArrayList<Student> getStudents() {
 		// TODO Auto-generated method stub
 		return Students;
+	}
+	@Override
+	public String toString() {
+		return "Classroom [roomID=" + roomID + ", teacherName=" + teacherName + "]";
 	}
 
 }

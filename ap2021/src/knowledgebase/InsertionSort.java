@@ -13,15 +13,19 @@ public class InsertionSort {
 	//precondition: x is an array of integers;x.length	>=0
 	//postcondition: x is sorted from least to greatest 
 	public static void insertionSort (int [] x) {
+		int compairs = 0;
 		for (int i = 1; i < x.length; i++) {
 			int temp = x [ i ] ;
 			int j = i - 1;
+			compairs++;
 			while( j>=0 && x[j] >temp) {
 				x[j+1] = x[j];
 				j--;
+				compairs++;
 			}
 			x[j+1] = temp;
 			System.out.println(Arrays.toString(x));
 		}
+		System.out.println(compairs);
 	}
 }

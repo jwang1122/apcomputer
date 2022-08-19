@@ -6,16 +6,17 @@ class MergeSort {
 	public static void main(String args[]) {
 		int a[]= {4, 10, 1, 2, 6, 7, 3, 5};
 		System.out.println(Arrays.toString(a));
-		mergeSort(a, a.length);
-		System.out.println(Arrays.toString(a));		
+		int compares = mergeSort(a, a.length);
+		System.out.println(Arrays.toString(a));
+		System.out.println(compares);
 	}
 
-	public static void merge(int[] left_arr, int[] right_arr, int[] arr, int left_size, int right_size) {
-
+	public static int merge(int[] left_arr, int[] right_arr, int[] arr, int left_size, int right_size) {
+		int compares = 0;
 		int i = 0, l = 0, r = 0;
 		// The while loops check the conditions for merging
 		while (l < left_size && r < right_size) {
-
+			compares++;
 			if (left_arr[l] < right_arr[r]) {
 				arr[i++] = left_arr[l++];
 			} else {
@@ -28,11 +29,13 @@ class MergeSort {
 		while (r < right_size) {
 			arr[i++] = right_arr[r++];
 		}
+		return compares;
 	}
 
-	public static void mergeSort(int[] arr, int len) {
+	public static int mergeSort(int[] arr, int len) {
+		int compares = 0;
 		if (len < 2) {
-			return;
+			return compares;
 		}
 
 		int mid = len / 2;
@@ -50,10 +53,11 @@ class MergeSort {
 			}
 		}
 		// Recursively calling the function to divide the subarrays further
-		mergeSort(left_arr, mid);
-		mergeSort(right_arr, len - mid);
+		compares += mergeSort(left_arr, mid);
+		compares += mergeSort(right_arr, len - mid);
 		// Calling the merge method on each subdivision
-		merge(left_arr, right_arr, arr, mid, len - mid);
+		compares += merge(left_arr, right_arr, arr, mid, len - mid);
+		return compares;
 	}
 
 }

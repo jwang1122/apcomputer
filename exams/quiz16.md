@@ -1,6 +1,6 @@
 # Quiz 16
 
-1. Refer to the following class for Question 1 a and 2.
+Refer to the following class for Question 1 a and 2.
 
 ```java
 public class Tester 

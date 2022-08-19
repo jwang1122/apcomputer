@@ -102,10 +102,90 @@
  
     1C, 2E, 3A, 4E, 5B
     [Quiz18 Questions](quiz18.md)
-    
+
+There are three sort algorithm need to know in AP Exam.
+1. Selection sort
+2. Insertion sort
+3. Merge sort
+
+🔑😄 **Knowlodge Base** Complexity measures
+1. Ω. Big Omega is used to represent the best-case scenario of an algorithm. When an algorithm is given the simplest data-structure possible as input.
+2. O. BigO is used to represent the worst-case scenario of an algorithm. When an algorithm is given a very large and complex data-set as input.
+3. Θ. Big Theta is used only when the time complexity of an algorithm is the same in both worst-case and best-case scenarios.
+
+### Selection sort
+Search-and-swap.
+
+![](../doc/selection.jpg)
+![](../doc/selection.gif)
+
+$$\frac 1 2 n(n-1)$$
+
+Time Complexity: O(n²), Ω(n)
+
+```mermaid
+graph TB
+
+A(start from 0<br>position=0)
+B(compare others with i<br>find smallest)
+E[swap]
+C{through all?}
+
+A-->B-->E-->C
+C--true-->END
+C--false-->A
+```
+
+### bubble sort
+
+![](../doc/bubble.gif)
+
+Bubble sort is a simple sorting algorithm that continuously steps through the list and compares the adjacent pairs to sort the elements. In contrast, selection sort is a sorting algorithm that takes the smallest value (considering ascending order) in the list and moves it to the proper position in the array.
+
+![](../doc/Difference-Between-Bubble-Sort-and-Selection-Sort.jpg)
+
+### Insertion Sort
+
+![](../doc/insertion.jpg)
+
+$$\frac 1 2 n(n-1)$$
+
+Time Complexity: O(n²), Ω(n)
+
+compare-push-insert
+{8,6,7,10} (8>6)
+{8>,,7,10} >> {6,8,7,10}
+{6,8>,,10} (8>7) >> {6,7,8,10}
+{6,7,8,} (10>8) >> {6,7,8,10}
+
+🔑😄 **Knowlodge Base**
+The main difference between insertion sort and selection sort is that insertion sort performs sorting by exchanging an element at a time with the partially sorted array while selection sort performs sorting by selecting the smallest element from the remaining elements and exchanging it with the element in the correct location.
+
+![](../doc/Difference-Between-Insertion-Sort-and-Selection-Sort.jpg)
+
+### Merge Sort
+
+🔑😄 **Knowlodge Base**
+Merge Sort is considered to be one of the **fastest** sorting algorithms, it is a bit more complex than Selection and Bubble Sort but its more efficient.
+
+![](../doc/merge.png)
+
+Time Complexity: Θ(n log n)
+
+```
+{14,8,9,3,5,4,21,12}
+{14,8,9,3}               {5,4,21,12}
+{14,8} {9,3}            {5,4} {21,12}
+{14} {8} {9} {3}       {5} {4}  {21} {12}
+{8,14} {3,9}            {4,5}  {12,21}  
+{3,8,9,14}              {4,5,12,21}
+       {3,4,5,9,12,14,21}
+```
+
+
 * quiz19
  
-    1E, 2D, 3E, 4A, 5C
+    1B, 2D, 3E, 4A, 5C
     [Quiz19 Questions](quiz19.md)
 
 * quiz20
@@ -253,10 +333,10 @@
 * [Problem 14](sectionII-14.md) ⟶ [Page 334](../ap2021/src/section2/Problem14.java)
 * [Problem 15](sectionII-15.md) ⟶ [Page 336](../ap2021/src/section2/Problem15.java)
 * [Problem 16](sectionII-16.md) ⟶ [Page 339](../ap2021/src/section2/Problem16.java)
-* 
 * [Problem 17](sectionII-17.md) ⟶ [Page 342](../ap2021/src/section2/Problem17.java)
 * [Problem 18](sectionII-18.md) ⟶ [Page 342](../ap2021/src/section2/Problem18.java)
 * [Problem 19](sectionII-19.md) ⟶ [Page 342](../ap2021/src/section2/Problem19.java)
+* 
 * [Problem 20](sectionII-20.md) ⟶ [Page 342](../ap2021/src/section2/Problem20.java)
 * [Problem 21](sectionII-21.md) ⟶ [Page 342](../ap2021/src/section2/Problem21.java)
 
