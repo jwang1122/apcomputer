@@ -1,25 +1,4 @@
 # AP COMPUTER Quiz Answer Sheet
-
-[MD to PDF](https://cloudconvert.com/md-to-pdf)
-
-## Answers for Section1
-[Questions for Section I](section1.md)
-
-```
-1E 2D 3D 4A 5C 
-6E 7B 8A 9D 10C 
-11C 12D 13A 14C 15B 
-16B 17D 18C 19B 20D 
-21B 22E 23B 24D 25A 
-26C 27E 28A 29B 30D 
-31D 32B 33B 34S 35C 
-36D 37E 38E 39D 40A 
-```
-## Answers for Section II
-* Question1: page 63
-* Question2: page 64
-* Question3: page 65 (no answer, refer to Java workspace "java" project ap2021 class com.huaxia.ap2021.section2.Tour)
-* Question4: page 66
   
 ## Answers for Quizes
 * quiz01
