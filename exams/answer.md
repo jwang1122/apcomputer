@@ -109,14 +109,15 @@ There are three sort algorithm need to know in AP Exam.
 3. Merge sort
 
 🔑😄 **Knowlodge Base** Complexity measures
-1. Ω. Big Omega is used to represent the best-case scenario of an algorithm. When an algorithm is given the simplest data-structure possible as input.
-2. O. BigO is used to represent the worst-case scenario of an algorithm. When an algorithm is given a very large and complex data-set as input.
+1. Ω. Big Omega is used to represent the **best-case** scenario of an algorithm. When an algorithm is given the simplest data-structure possible as input.
+2. O. BigO is used to represent the **worst-case** scenario of an algorithm. When an algorithm is given a very large and complex data-set as input.
 3. Θ. Big Theta is used only when the time complexity of an algorithm is the same in both worst-case and best-case scenarios.
 
 ### Selection sort
 Search-and-swap.
 
 ![](../doc/selection.jpg)
+
 ![](../doc/selection.gif)
 
 $$\frac 1 2 n(n-1)$$
@@ -336,7 +337,6 @@ Time Complexity: Θ(n log n)
 * [Problem 17](sectionII-17.md) ⟶ [Page 342](../ap2021/src/section2/Problem17.java)
 * [Problem 18](sectionII-18.md) ⟶ [Page 342](../ap2021/src/section2/Problem18.java)
 * [Problem 19](sectionII-19.md) ⟶ [Page 342](../ap2021/src/section2/Problem19.java)
-* 
 * [Problem 20](sectionII-20.md) ⟶ [Page 342](../ap2021/src/section2/Problem20.java)
 * [Problem 21](sectionII-21.md) ⟶ [Page 342](../ap2021/src/section2/Problem21.java)
 

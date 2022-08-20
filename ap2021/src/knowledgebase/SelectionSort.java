@@ -18,10 +18,10 @@ public class SelectionSort {
 	public static void main(String[] args) {
 		int a[]= {4, 10, 1, 2, 6, 7, 3, 5};
 		System.out.println(Arrays.toString(a));
-		selectionSortl(a);
+		selectionSort(a);
 	}
 	
-	public static void selectionSortl (int[] numbers) 
+	public static void selectionSort (int[] numbers) 
 	{
 		int compairs = 0;
 		for (int i = 0; i< numbers.length - 1; i++ ) {
