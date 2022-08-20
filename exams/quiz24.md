@@ -50,7 +50,7 @@ I. public int findTarget (int[] a, int target)
 II. public int findTarget (int[] a, int target) 
     {
         for (int x: a)
-            if (a[x] == target)
+            if (x == target)
                 return x;  
         return -1;
     }
@@ -159,8 +159,10 @@ II. public LawAcademy (string twn, double tuit, String st)
 
 5. Consider a class Recliner that extends a Chair class. Assuming both classes each have a no-parameter constructor, which of the following statements is not valid?
 
+```java
 (A) Object a = new Recliner();
 (B) Recliner b = new Chair();  
 (C) Chair c = new Chair(); 
 (D) Chair d = new Recliner(); 
 (E) All of the above choices are valid. 
+```

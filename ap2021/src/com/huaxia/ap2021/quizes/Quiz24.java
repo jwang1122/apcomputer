@@ -23,8 +23,8 @@ public class Quiz24 {
 	private static void problem2() {
 		Quiz24 quiz = new Quiz24();
 		int[] a = { 2, 3, 4, 6, 21, 32, 45, 56, 61, 75 };
-		System.out.println(quiz.findTargetII(a, 21));
-		System.out.println(quiz.findTargetIII(a, 21));
+		System.out.println(quiz.findTargetII(a, 45));
+		System.out.println(quiz.findTargetIII(a, 45));
 
 	}
 
@@ -56,7 +56,7 @@ public class Quiz24 {
 
 	public int findTargetII(int[] a, int target) { // linear search
 		for (int x : a)
-			if (a[x] == target)
+			if (x == target)
 				return x;
 		return -1;
 	}
